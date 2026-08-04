@@ -1,0 +1,3678 @@
+[
+    {
+        "family": "Agrumes",
+        "cultures": [
+            {
+                "culture": "Clémentinier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Clémentinier | Désherbage | Adventices",
+                            "Clémentinier | Désherbage | Adventices dicotylédones annuelles",
+                            "Clémentinier | Désherbage | Adventices dicotylédones vivaces",
+                            "Clémentinier | Désherbage | Adventices graminées annuelles",
+                            "Clémentinier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Clémentinier | Traitement du sol | Nématodes",
+                            "Clémentinier | Parties aériennes | Acariens",
+                            "Clémentinier | Parties aériennes | Mouches blanches",
+                            "Clémentinier | Parties aériennes | Cératite",
+                            "Clémentinier | Parties aériennes | Cochenilles",
+                            "Clémentinier | Parties aériennes | Insectes xylophages",
+                            "Clémentinier | Parties aériennes | Mineuses des feuilles",
+                            "Clémentinier | Parties aériennes | Pucerons",
+                            "Clémentinier | Parties aériennes | Pyrale",
+                            "Clémentinier | Parties aériennes | Teigne"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Clémentinier | Parties aériennes | Alternariose",
+                            "Clémentinier | Parties aériennes | Anthracnose",
+                            "Clémentinier | Parties aériennes | Bactérioses",
+                            "Clémentinier | Parties aériennes | Chancre du collet",
+                            "Clémentinier | Parties aériennes | Fumagine",
+                            "Clémentinier | Parties aériennes | Fusariose",
+                            "Clémentinier | Parties aériennes | Pourriture brune",
+                            "Clémentinier | Parties aériennes | Pourriture grise",
+                            "Clémentinier | Parties aériennes | Stubborn",
+                            "Clémentinier | Trt post-récolte | Maladies de conservation"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Clémentinier | Parties aériennes | Amélioration du rendement",
+                            "Clémentinier | Parties aériennes | Amélioration du calibre"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Agrumes",
+        "cultures": [
+            {
+                "culture": "Oranger",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Oranger | Désherbage | Adventices",
+                            "Oranger | Désherbage | Adventices dicotylédones annuelles",
+                            "Oranger | Désherbage | Adventices dicotylédones vivaces",
+                            "Oranger | Désherbage | Adventices graminées annuelles",
+                            "Oranger | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Oranger | Traitement du sol | Nématodes",
+                            "Oranger | Parties aériennes | Acariens",
+                            "Oranger | Parties aériennes | Mouches blanches",
+                            "Oranger | Parties aériennes | Cératite",
+                            "Oranger | Parties aériennes | Cochenilles",
+                            "Oranger | Parties aériennes | Insectes xylophages",
+                            "Oranger | Parties aériennes | Mineuses des feuilles",
+                            "Oranger | Parties aériennes | Pucerons",
+                            "Oranger | Parties aériennes | Pyrale",
+                            "Oranger | Parties aériennes | Teigne des agrumes"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Oranger | Parties aériennes | Alternariose",
+                            "Oranger | Parties aériennes | Anthracnose",
+                            "Oranger | Parties aériennes | Bactérioses",
+                            "Oranger | Parties aériennes | Chancre du collet",
+                            "Oranger | Parties aériennes | Fumagine",
+                            "Oranger | Parties aériennes | Fusariose",
+                            "Oranger | Parties aériennes | Pourriture brune",
+                            "Oranger | Parties aériennes | Pourriture grise",
+                            "Oranger | Parties aériennes | Stubborn",
+                            "Oranger | Trt post-récolte | Maladies de conservation"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Oranger | Parties aériennes | Amélioration du rendement",
+                            "Oranger | Parties aériennes | Amélioration du calibre"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Agrumes",
+        "cultures": [
+            {
+                "culture": "Pamplemoussier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Pamplemoussier | Désherbage | Adventices",
+                            "Pamplemoussier | Désherbage | Adventices dicotylédones annuelles",
+                            "Pamplemoussier | Désherbage | Adventices dicotylédones vivaces",
+                            "Pamplemoussier | Désherbage | Adventices graminées annuelles",
+                            "Pamplemoussier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Pamplemoussier | Traitement du sol | Nématodes",
+                            "Pamplemoussier | Parties aériennes | Acariens",
+                            "Pamplemoussier | Parties aériennes | Mouches blanches",
+                            "Pamplemoussier | Parties aériennes | Cératite",
+                            "Pamplemoussier | Parties aériennes | Cochenilles",
+                            "Pamplemoussier | Parties aériennes | Insectes xylophages",
+                            "Pamplemoussier | Parties aériennes | Mineuses des feuilles",
+                            "Pamplemoussier | Parties aériennes | Pucerons",
+                            "Pamplemoussier | Parties aériennes | Pyrale",
+                            "Pamplemoussier | Parties aériennes | Teigne"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Pamplemoussier | Parties aériennes | Alternariose",
+                            "Pamplemoussier | Parties aériennes | Anthracnose",
+                            "Pamplemoussier | Parties aériennes | Bactérioses",
+                            "Pamplemoussier | Parties aériennes | Chancre du collet",
+                            "Pamplemoussier | Parties aériennes | Fumagine",
+                            "Pamplemoussier | Parties aériennes | Fusariose",
+                            "Pamplemoussier | Parties aériennes | Pourriture brune",
+                            "Pamplemoussier | Parties aériennes | Pourriture grise",
+                            "Pamplemoussier | Parties aériennes | Stubborn",
+                            "Pamplemoussier | Trt post-récolte | Maladies de conservation"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Pamplemoussier | Parties aériennes | Amélioration du rendement",
+                            "Pamplemoussier | Parties aériennes | Amélioration du calibre"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Abricotier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Abricotier | Désherbage | Adventices",
+                            "Abricotier | Désherbage | Adventices dicotylédones annuelles",
+                            "Abricotier | Désherbage | Adventices dicotylédones vivaces",
+                            "Abricotier | Désherbage | Adventices graminées annuelles",
+                            "Abricotier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Abricotier | Traitement du sol | Capnode",
+                            "Abricotier | traitement du sol | Nématodes",
+                            "Abricotier | Parties aériennes | Acariens",
+                            "Abricotier | Parties aériennes | Cératite",
+                            "Abricotier | Parties aériennes | Cochenilles",
+                            "Abricotier | Parties aériennes | Insectes xylophages",
+                            "Abricotier | Parties aériennes | Pucerons",
+                            "Abricotier | Parties aériennes | Mineuse",
+                            "Abricotier | Parties aériennes | Stades hivernants des ravageurs",
+                            "Abricotier | Parties aériennes | Thrips",
+                            "Abricotier | Parties aériennes | Tordeuse orientale"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Abricotier | Parties aériennes | Bactérioses",
+                            "Abricotier | Parties aériennes | Cloque",
+                            "Abricotier | Parties aériennes | Maladie criblée",
+                            "Abricotier | Parties aériennes | Oïdium",
+                            "Abricotier | Trt post-récolte | Maladies de conservation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à noyau",
+        "cultures": [
+            {
+                "culture": "Cerisier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Cerisier | Désherbage | Adventices",
+                            "Cerisier | Désherbage | Adventices dicotylédones annuelles",
+                            "Cerisier | Désherbage | Adventices dicotylédones vivaces",
+                            "Cerisier | Désherbage | Adventices graminées annuelles",
+                            "Cerisier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Cerisier | Parties aériennes | Acariens",
+                            "Cerisier | Parties aériennes | Pou de San José",
+                            "Cerisier | Parties aériennes | Thrips",
+                            "Cerisier | Traitement du sol | Capnode"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à noyau",
+        "cultures": [
+            {
+                "culture": "Nectarinier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Nectarinier | Désherbage | Adventices",
+                            "Nectarinier | Désherbage | Adventices dicotylédones annuelles",
+                            "Nectarinier | Désherbage | Adventices dicotylédones vivaces",
+                            "Nectarinier | Désherbage | Adventices graminées annuelles",
+                            "Nectarinier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Nectarinier | Traitement du sol | Capnode",
+                            "Nectarinier | Traitement du sol | Nématodes",
+                            "Nectarinier | Traitement du sol | Capnode",
+                            "Nectarinier | Parties aériennes | Acariens",
+                            "Nectarinier | Parties aériennes | Cératite",
+                            "Nectarinier | Parties aériennes | Cétoines",
+                            "Nectarinier | Parties aériennes | Insectes xylophages",
+                            "Nectarinier | Parties aériennes | Mineuses",
+                            "Nectarinier | Parties aériennes | Psylle",
+                            "Nectarinier | Parties aériennes | Pucerons",
+                            "Nectarinier | Parties aériennes | Formes hivernantes des ravageurs",
+                            "Nectarinier | Parties aériennes | Tordeuse orientale",
+                            "Nectarinier | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Nectarinier | Parties aériennes | Bactérioses",
+                            "Nectarinier | Parties aériennes | Cloque",
+                            "Nectarinier | Parties aériennes | Chancre du collet",
+                            "Nectarinier | Parties aériennes | Maladie criblée",
+                            "Nectarinier | Parties aériennes | Oïdium",
+                            "Nectarinier | Parties aériennes | Rouille",
+                            "Nectarinier | Trt post-récolte | Maladies de conservation"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Nectarinier | Parties aériennes | Action sur la floraison",
+                            "Nectarinier | Parties aériennes | Action sur la nouaison"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à noyau",
+        "cultures": [
+            {
+                "culture": "Pêcher",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Pêcher | Désherbage | Adventices",
+                            "Pêcher | Désherbage | Adventices dicotylédones annuelles",
+                            "Pêcher | Désherbage | Adventices dicotylédones vivaces",
+                            "Pêcher | Désherbage | Adventices graminées annuelles",
+                            "Pêcher | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Pêcher | Traitement du sol | Capnode",
+                            "Pêcher | Traitement du sol | Nématodes",
+                            "Pêcher | Parties aériennes | Acariens",
+                            "Pêcher | Parties aériennes | Carpocapse",
+                            "Pêcher | Parties aériennes | Cératite",
+                            "Pêcher | Parties aériennes | Cétoines",
+                            "Pêcher | Parties aériennes | Cicadelle",
+                            "Pêcher | Parties aériennes | Cochenilles",
+                            "Pêcher | Parties aériennes | Insectes xylophages",
+                            "Pêcher | Parties aériennes | Mineuses",
+                            "Pêcher | Parties aériennes | Psylle",
+                            "Pêcher | Parties aériennes | Pucerons",
+                            "Pêcher | Parties aériennes | Stades hivernants des ravageurs",
+                            "Pêcher | Parties aériennes | Tordeuse orientale",
+                            "Pêcher | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Pêcher | Parties aériennes | Bactérioses",
+                            "Pêcher | Parties aériennes | Cloque",
+                            "Pêcher | Parties aériennes | Chancre du collet",
+                            "Pêcher | Parties aériennes | Maladie criblée",
+                            "Pêcher | Parties aériennes | Moniliose",
+                            "Pêcher | Parties aériennes | Oïdium",
+                            "Pêcher | Parties aériennes | Rouille",
+                            "Pêcher | Parties aériennes | Tavelure",
+                            "Pêcher | Trt post-récolte | Maladies de conservation"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Pêcher | Parties aériennes | Action sur la floraison",
+                            "Pêcher | Parties aériennes | Action sur la nouaison"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à noyau",
+        "cultures": [
+            {
+                "culture": "Prunier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Prunier | Désherbage | Adventices",
+                            "Prunier | Désherbage | Adventices dicotylédones annuelles",
+                            "Prunier | Désherbage | Adventices dicotylédones vivaces",
+                            "Prunier | Désherbage | Adventices graminées annuelles",
+                            "Prunier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Prunier | Trt du sol | Nématodes",
+                            "Prunier | Parties aériennes | Acariens",
+                            "Prunier | Parties aériennes | Cochenilles",
+                            "Prunier | Parties aériennes | Insectes xylophages",
+                            "Prunier | Parties aériennes | Pucerons",
+                            "Prunier | Parties aériennes | Formes hivernantes des ravageurs",
+                            "Prunier | Parties aériennes | Tordeuse orientale"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Prunier | Parties aériennes | Bactérioses",
+                            "Prunier | Parties aériennes | Maladie criblée",
+                            "Prunier | Parties aériennes | Moniliose",
+                            "Prunier | Trt post-récolte | Maladies de conservation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à pépins",
+        "cultures": [
+            {
+                "culture": "Cognassier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Cognassier | Désherbage | Adventices",
+                            "Cognassier | Désherbage | Adventices dicotylédones annuelles",
+                            "Cognassier | Désherbage | Adventices dicotylédones vivaces",
+                            "Cognassier | Désherbage | Adventices graminées annuelles",
+                            "Cognassier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Cognassier | Parties aériennes | Acariens",
+                            "Cognassier | Parties aériennes | Carpocapse",
+                            "Cognassier | Parties aériennes | Pucerons",
+                            "Cognassier | Parties aériennes | Tordeuse orientale"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Cognassier | Parties aériennes | Entomosporiose",
+                            "Cognassier | Parties aériennes | Moniliose",
+                            "Cognassier | Parties aériennes | Oïdium",
+                            "Cognassier | Parties aériennes | Tavelure"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à pépins",
+        "cultures": [
+            {
+                "culture": "Néflier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Néflier | Désherbage | Adventices",
+                            "Néflier | Désherbage | Adventices dicotylédones annuelles",
+                            "Néflier | Désherbage | Adventices dicotylédones vivaces",
+                            "Néflier | Désherbage | Adventices graminées annuelles",
+                            "Néflier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Néflier | Parties aériennes | Cératite"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Néflier | Parties aériennes | Feu bactérien",
+                            "Néflier | Parties aériennes | Oïdium",
+                            "Néflier | Parties aériennes | Tavelure"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à pépins",
+        "cultures": [
+            {
+                "culture": "Poirier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Poirier | Désherbage | Adventices",
+                            "Poirier | Désherbage | Adventices dicotylédones annuelles",
+                            "Poirier | Désherbage | Adventices dicotylédones vivaces",
+                            "Poirier | Désherbage | Adventices graminées annuelles",
+                            "Poirier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Poirier | Trt du sol | Nématodes",
+                            "Poirier | Parties aériennes | Acariens",
+                            "Poirier | Parties aériennes | Carpocapse",
+                            "Poirier | Parties aériennes | Cochenilles",
+                            "Poirier | Parties aériennes | Faux tigre",
+                            "Poirier | Parties aériennes | Insectes xylophages",
+                            "Poirier | Parties aériennes | Mineuses",
+                            "Poirier | Parties aériennes | Psylle du poirier",
+                            "Poirier | Parties aériennes | Pucerons",
+                            "Poirier | Parties aériennes | Stades hivernants des ravageurs",
+                            "Poirier | Parties aériennes | Tordeuse orientale"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Poirier | Parties aériennes | Bactérioses",
+                            "Poirier | Parties aériennes | Chancre du collet",
+                            "Poirier | Parties aériennes | Feu bactérien",
+                            "Poirier | Parties aériennes | Moniliose",
+                            "Poirier | Parties aériennes | Oïdium",
+                            "Poirier | Parties aériennes | Tavelure",
+                            "Poirier | Trt post-récolte | Maladies de conservation"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Poirier | Parties aériennes | Amélioration du calibre",
+                            "Poirier | Parties aériennes | Régulateur de croissance",
+                            "Poirier | Parties aériennes | Eclaircissage"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à pépins",
+        "cultures": [
+            {
+                "culture": "Pommier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Pommier | Désherbage | Adventices",
+                            "Pommier | Désherbage | Adventices dicotylédones annuelles",
+                            "Pommier | Désherbage | Adventices dicotylédones vivaces",
+                            "Pommier | Désherbage | Adventices graminées annuelles",
+                            "Pommier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Pommier | Traitement du sol | Nématodes",
+                            "Pommier | Parties aériennes | Acariens",
+                            "Pommier | Parties aériennes | Carpocapse",
+                            "Pommier | Parties aériennes | Cochenilles",
+                            "Pommier | Parties aériennes | Insectes xylophages",
+                            "Pommier | Parties aériennes | Mineuses",
+                            "Pommier | Parties aériennes | Cératite",
+                            "Pommier | Parties aériennes | Psylle",
+                            "Pommier | Parties aériennes | Pucerons",
+                            "Pommier | Parties aériennes | Sésie du pommier",
+                            "Pommier | Parties aériennes | Stades hivernants des ravageurs",
+                            "Pommier | Parties aériennes | Tordeuse orientale"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Pommier | Parties aériennes | Bactérioses",
+                            "Pommier | Parties aériennes | Chancre du collet",
+                            "Pommier | Parties aériennes | Cloque",
+                            "Pommier | Parties aériennes | Feu bactérien",
+                            "Pommier | Parties aériennes | Moniliose",
+                            "Pommier | Parties aériennes | Oïdium",
+                            "Pommier | Parties aériennes | Tavelure",
+                            "Pommier | Parties aériennes | Maladies de conservation",
+                            "Pommier | Trt post-récolte | Maladies de conservation",
+                            "Pommier | Trt post-récolte | Echaudure"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Pommier | Parties aériennes | Amélioration du calibre",
+                            "Pommier | Parties aériennes | Amélioration de la nouaison",
+                            "Pommier | Parties aériennes | Eclaircissage",
+                            "Pommier | Parties aériennes | Régulateur de croissance",
+                            "Pommier | Trt post-récolte | Régulation de la maturation des fruits"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Amandier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Amandier | Désherbage | Adventices",
+                            "Amandier | Désherbage | Adventices dicotylédones annuelles",
+                            "Amandier | Désherbage | Adventices dicotylédones vivaces",
+                            "Amandier | Désherbage | Adventices graminées annuelles",
+                            "Amandier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Amandier | Parties aériennes | Acariens",
+                            "Amandier | Parties aériennes | Aglope",
+                            "Amandier | Parties aériennes | Capnode",
+                            "Amandier | Parties aériennes | Faux tigre",
+                            "Amandier | Parties aériennes | Papillon rouge",
+                            "Amandier | Parties aériennes | Pucerons",
+                            "Amandier | Parties aériennes | Scolyte",
+                            "Amandier | Parties aériennes | Stades hivernants des ravageurs"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Amandier | Parties aériennes | Bactérioses",
+                            "Amandier | Parties aériennes | Cloque",
+                            "Amandier | Parties aériennes | Maladie criblée",
+                            "Amandier | Parties aériennes | Maladie des tâches rouges",
+                            "Amandier | Parties aériennes | Monilioses",
+                            "Amandier | Parties aériennes | Rouille",
+                            "Amandier | Parties aériennes | Tavelure"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à coques",
+        "cultures": [
+            {
+                "culture": "Noisetier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Noisetier | Désherbage | Adventices",
+                            "Noisetier | Désherbage | Adventices dicotylédones annuelles",
+                            "Noisetier | Désherbage | Adventices dicotylédones vivaces",
+                            "Noisetier | Désherbage | Adventices graminées annuelles",
+                            "Noisetier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à coques",
+        "cultures": [
+            {
+                "culture": "Noyer",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Noyer | Désherbage | Adventices",
+                            "Noyer | Désherbage | Adventices dicotylédones annuelles",
+                            "Noyer | Désherbage | Adventices dicotylédones vivaces",
+                            "Noyer | Désherbage | Adventices graminées annuelles",
+                            "Noyer | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à coques",
+        "cultures": [
+            {
+                "culture": "Pacanier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Pacanier | Désherbage | Adventices",
+                            "Pacanier | Désherbage | Adventices dicotylédones annuelles",
+                            "Pacanier | Désherbage | Adventices dicotylédones vivaces",
+                            "Pacanier | Désherbage | Adventices graminées annuelles",
+                            "Pacanier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Arbres fruitiers à coques",
+        "cultures": [
+            {
+                "culture": "Pistachier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Pistachier | Désherbage | Adventices",
+                            "Pistachier | Désherbage | Adventices dicotylédones annuelles",
+                            "Pistachier | Désherbage | Adventices dicotylédones vivaces",
+                            "Pistachier | Désherbage | Adventices graminées annuelles",
+                            "Pistachier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Fraisier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Fraisier | Désherbage | Adventices",
+                            "Fraisier | Désherbage | Adventices dicotylédones annuelles",
+                            "Fraisier | Désherbage | Adventices dicotylédones vivaces",
+                            "Fraisier | Désherbage | Adventices graminées annuelles",
+                            "Fraisier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Fraisier | Traitement du sol | Nématodes",
+                            "Fraisier | Parties aériennes | Acariens",
+                            "Fraisier | Parties aériennes | Mouches blanches",
+                            "Fraisier | Parties aériennes | Drosophila suzukii",
+                            "Fraisier | Parties aériennes | Noctuelles défoliatrices",
+                            "Fraisier | Parties aériennes | Pucerons",
+                            "Fraisier | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Fraisier | Traitement du sol | Fusariose",
+                            "Fraisier | Traitement du sol | Verticiliose",
+                            "Fraisier | Trempage | Maladies à phytophtora",
+                            "Fraisier | Parties aériennes | Altérnariose",
+                            "Fraisier | Parties aériennes | Maladies à tâches pourpres",
+                            "Fraisier | Parties aériennes | Mildiou",
+                            "Fraisier | Parties aériennes | Oïdium",
+                            "Fraisier | Parties aériennes | Pourriture grise"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Fraisier | Parties aériennes | Amélioration du calibre"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Baies et petits fruits",
+        "cultures": [
+            {
+                "culture": "Framboisier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Framboisier | Désherbage | Adventices",
+                            "Framboisier | Désherbage | Adventices dicotylédones annuelles",
+                            "Framboisier | Désherbage | Adventices dicotylédones vivaces",
+                            "Framboisier | Désherbage | Adventices graminées annuelles",
+                            "Framboisier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Framboisier | Traitement du sol | Insectes du sol",
+                            "Framboisier | Parties aériennes | Acariens",
+                            "Framboisier | Parties aériennes | Cératite",
+                            "Drosophila suzukii",
+                            "Framboisier | Parties aériennes",
+                            "Framboisier | Parties aériennes | Mouches blanches",
+                            "Framboisier | Parties aériennes | Pucerons",
+                            "Framboisier | Parties aériennes | Thrips",
+                            "Framboisier | Parties aériennes | Noctuelles défoliatrices"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Framboisier | Parties aériennes | Dépérissement des tiges",
+                            "Framboisier | Parties aériennes | Oïdium",
+                            "Framboisier | Traitement du sol | Phytophtora des racines",
+                            "Framboisier | Parties aériennes | Pourriture grise",
+                            "Framboisier | Parties aériennes | Verticiliose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Baies et petits fruits",
+        "cultures": [
+            {
+                "culture": "Groseillier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Groseillier | Désherbage | Adventices",
+                            "Groseillier | Désherbage | Adventices dicotylédones annuelles",
+                            "Groseillier | Désherbage | Adventices dicotylédones vivaces",
+                            "Groseillier | Désherbage | Adventices graminées annuelles",
+                            "Groseillier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Baies et petits fruits",
+        "cultures": [
+            {
+                "culture": "Mûrier (voir framboisier)",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Mûrier | Désherbage | Adventices",
+                            "Mûrier | Désherbage | Adventices dicotylédones annuelles",
+                            "Mûrier | Désherbage | Adventices dicotylédones vivaces",
+                            "Mûrier | Désherbage | Adventices graminées annuelles",
+                            "Mûrier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Mûrier | Traitement du sol | Insectes du sol",
+                            "Mûrier | Parties aériennes | Acariens",
+                            "Mûrier | Parties aériennes | Enrouleuses",
+                            "Mûrier | Parties aériennes | Mouches blanches",
+                            "Mûrier | Parties aériennes | Pucerons",
+                            "Mûrier | Parties aériennes | Rhizophage du framboisier"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Mûrier | Parties aériennes | Anthracnose",
+                            "Mûrier | Parties aériennes | Dépérissement des tiges",
+                            "Mûrier | Parties aériennes | Moisissure blanche",
+                            "Mûrier | Parties aériennes | Nécrose des blessures",
+                            "Mûrier | Parties aériennes | Oïdium",
+                            "Mûrier | Traitement du sol | Phytophtora des racines",
+                            "Mûrier | Parties aériennes | Pourriture grise",
+                            "Mûrier | Parties aériennes | Rouille",
+                            "Mûrier | Parties aériennes | Tâche des feuilles",
+                            "Mûrier | Parties aériennes | Verticiliose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Baies et petits fruits",
+        "cultures": [
+            {
+                "culture": "Myrtillier (voir framboisier)",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Myrtillier | Désherbage | Adventices",
+                            "Myrtillier | Désherbage | Adventices dicotylédones annuelles",
+                            "Myrtillier | Désherbage | Adventices dicotylédones vivaces",
+                            "Myrtillier | Désherbage | Adventices graminées annuelles",
+                            "Myrtillier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Myrtillier | Traitement du sol | Insectes du sol",
+                            "Myrtillier | Parties aériennes | Acariens",
+                            "Myrtillier | Parties aériennes | Agrile du framboisier",
+                            "Myrtillier | Parties aériennes | Cicadelle du framboisier",
+                            "Myrtillier | Parties aériennes | Drosophile",
+                            "Myrtillier | Parties aériennes | Mouches blanches",
+                            "Myrtillier | Parties aériennes | Pucerons",
+                            "Myrtillier | Parties aériennes | Rhizophage"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Myrtillier | Parties aériennes | Anthracnose",
+                            "Myrtillier | Parties aériennes | Dépérissement des tiges",
+                            "Myrtillier | Parties aériennes | Moisissure blanche",
+                            "Myrtillier | Parties aériennes | Nécrose des blessures",
+                            "Myrtillier | Parties aériennes | Oïdium",
+                            "Myrtillier | Traitement du sol | Phytophtora des racines",
+                            "Myrtillier | Parties aériennes | Pourriture grise",
+                            "Myrtillier | Parties aériennes | Rouille",
+                            "Myrtillier | Parties aériennes | Tache des feuilles",
+                            "Myrtillier | Parties aériennes | Verticiliose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Baies et petits fruits",
+        "cultures": [
+            {
+                "culture": "Vigne",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Vigne | Désherbage | Adventices",
+                            "Vigne | Désherbage | Adventices dicotylédones annuelles",
+                            "Vigne | Désherbage | Adventices dicotylédones vivaces",
+                            "Vigne | Désherbage | Adventices graminées annuelles",
+                            "Vigne | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Vigne | Parties aériennes | Acariens",
+                            "Vigne | Parties aériennes | Cicadelles",
+                            "Vigne | Parties aériennes | Cochenilles",
+                            "Vigne | Parties aériennes | Altise",
+                            "Vigne | Parties aériennes | Cératite",
+                            "Vigne | Parties aériennes | Erinose",
+                            "Vigne | Parties aériennes | Guêpes",
+                            "Vigne | Parties aériennes | Oiseaux",
+                            "Vigne | Parties aériennes | Stades hivernants des ravageurs",
+                            "Vigne | Parties aériennes | Thrips",
+                            "Vigne | Parties aériennes | Vers de la grappe"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Vigne | Traitement du sol | Pourridié",
+                            "Vigne | Traitement du sol | Pytium",
+                            "Vigne | Parties aériennes | Mildiou",
+                            "Vigne | Parties aériennes | Anthracnose",
+                            "Vigne | Parties aériennes | Excoriose",
+                            "Vigne | Parties aériennes | Esca",
+                            "Vigne | Parties aériennes | Galle du collet",
+                            "Vigne | Parties aériennes | Oïdium",
+                            "Vigne | Parties aériennes | Pourriture grise",
+                            "Vigne | Parties aériennes | Pourriture noire",
+                            "Vigne | Parties aériennes | Eutypiose"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Vigne | Parties aériennes | Amélioration du calibre des fruits",
+                            "Vigne | Parties aériennes | Contrôle de la dormance"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Caroubier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Caroubier | Désherbage | Adventices",
+                            "Caroubier | Désherbage | Adventices dicotylédones annuelles",
+                            "Caroubier | Désherbage | Adventices dicotylédones vivaces",
+                            "Caroubier | Désherbage | Adventices graminées annuelles",
+                            "Caroubier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Figuier",
+                "sections": [
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Figuier | Parties aériennes | Acariens",
+                            "Figuier | Parties aériennes | Cératite",
+                            "Figuier | Parties aériennes | Cochenille",
+                            "Figuier | Parties aériennes | Guêpes",
+                            "Figuier | Parties aériennes | Oiseaux",
+                            "Figuier | Parties aériennes | Pucerons"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Figuier | Parties aériennes | Pourriture grise"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Autres",
+        "cultures": [
+            {
+                "culture": "Figuier de barbarie",
+                "sections": [
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Figuier | de | Parties aériennes | Cératite",
+                            "barbarie",
+                            "Figuier | de | Parties aériennes | Cochenille",
+                            "barbarie"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Autres",
+        "cultures": [
+            {
+                "culture": "Grenadier",
+                "sections": [
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Grenadier | Parties aériennes | Pucerons",
+                            "Grenadier | Parties aériennes | Cératite",
+                            "Grenadier | Parties aériennes | Cochenilles"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Grenadier | Parties aériennes | Pourriture grise",
+                            "Grenadier | Parties aériennes | Tavelure"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Autres",
+        "cultures": [
+            {
+                "culture": "Olivier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Olivier | Désherbage | Adventices",
+                            "Olivier | Désherbage | Adventices dicotylédones annuelles",
+                            "Olivier | Désherbage | Adventices dicotylédones vivaces",
+                            "Olivier | Désherbage | Adventices graminées annuelles",
+                            "Olivier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Olivier | Parties aériennes | Cécidomyie des écorces",
+                            "Olivier | Parties aériennes | Cochenilles",
+                            "Olivier | Parties aériennes | Hylésine",
+                            "Olivier | Parties aériennes | Mouche de l’olive",
+                            "Olivier | Parties aériennes | Oiseaux",
+                            "Olivier | Parties aériennes | Otiorhynque",
+                            "Olivier | Parties aériennes | Psylle",
+                            "Olivier | Parties aériennes | Scolytes",
+                            "Olivier | Parties aériennes | Stades hivernants des ravageurs",
+                            "Olivier | Parties aériennes | Pyralle du Jasmin",
+                            "Olivier | Parties aériennes | Teigne",
+                            "Olivier | Parties aériennes | Xylomedes"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Olivier | Trempage | Agrobacterium",
+                            "Olivier | Parties aériennes | Tuberculose",
+                            "Olivier | Parties aériennes | Anthracnose",
+                            "Olivier | Parties aériennes | Fumagine",
+                            "Olivier | Parties aériennes | Œil de paon",
+                            "Olivier | Parties aériennes | Verticilliose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Autres",
+        "cultures": [
+            {
+                "culture": "Palmier dattier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Palmier dattier | Désherbage | Adventices",
+                            "Palmier dattier | Désherbage | Adventices dicotylédones annuelles",
+                            "Palmier dattier | Désherbage | Adventices dicotylédones vivaces",
+                            "Palmier dattier | Désherbage | Adventices graminées annuelles",
+                            "Palmier dattier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Palmier dattier | Parties aériennes | Acariose des dattes",
+                            "Palmier dattier | Parties aériennes | Cochenille blanche",
+                            "Palmier dattier | Parties aériennes | Cochenille rouge",
+                            "Palmier dattier | Parties aériennes | Pyrale des dattes"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Palmier dattier | Trt du sol | Bayoud",
+                            "Palmier dattier | Parties aériennes | Faux charbon"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Champignons",
+        "cultures": [
+            {
+                "culture": "Truffes",
+                "sections": []
+            },
+            {
+                "culture": "Choux",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Choux | Désherbage | Adventices",
+                            "Choux | Désherbage | Adventices dicotylédones annuelles",
+                            "Choux | Désherbage | Adventices dicotylédones vivaces",
+                            "Choux | Désherbage | Adventices graminées annuelles",
+                            "Choux | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Choux | Parties aériennes | Acariens",
+                            "Choux | Parties aériennes | Noctuelles défoliatrices",
+                            "Choux | Parties aériennes | Pucerons",
+                            "Choux | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Choux | Traitement du sol | Fontes de semis",
+                            "Choux | Parties aériennes | Mildiou",
+                            "Choux | Parties aériennes | Oïdium",
+                            "Choux | Parties aériennes | Pourriture grise",
+                            "Choux | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Choux (brassicacées)",
+        "cultures": [
+            {
+                "culture": "Choux brocoli",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Choux brocoli | Désherbage | Adventices",
+                            "Choux brocoli | Désherbage | Adventices dicotylédones annuelles",
+                            "Choux brocoli | Désherbage | Adventices dicotylédones vivaces",
+                            "Choux brocoli | Désherbage | Adventices graminées annuelles",
+                            "Choux brocoli | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Choux brocoli | Parties aériennes | Acariens",
+                            "Choux brocoli | Parties aériennes | Noctuelles défoliatrices",
+                            "Choux brocoli | Parties aériennes | Pucerons",
+                            "Choux brocoli | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Choux brocoli | Traitement du sol | Fontes de semis",
+                            "Choux brocoli | Parties aériennes | Mildiou",
+                            "Choux brocoli | Parties aériennes | Oïdium",
+                            "Choux brocoli | Parties aériennes | Pourriture grise",
+                            "Choux brocoli | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Choux (brassicacées)",
+        "cultures": [
+            {
+                "culture": "Choux chinois",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Choux chinois | Désherbage | Adventices",
+                            "Choux chinois | Désherbage | Adventices dicotylédones annuelles",
+                            "Choux chinois | Désherbage | Adventices dicotylédones vivaces",
+                            "Choux chinois | Désherbage | Adventices graminées annuelles",
+                            "Choux chinois | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Choux chinois | Parties aériennes | Acariens",
+                            "Choux chinois | Parties aériennes | Noctuelles défoliatrices",
+                            "Choux chinois | Parties aériennes | Pucerons",
+                            "Choux chinois | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Choux chinois | Traitement du sol | Fontes de semis",
+                            "Choux chinois | Parties aériennes | Mildiou",
+                            "Choux chinois | Parties aériennes | Oïdium",
+                            "Choux chinois | Parties aériennes | Pourriture grise",
+                            "Choux chinois | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Choux (brassicacées)",
+        "cultures": [
+            {
+                "culture": "Choux de bruxelles",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Choux de | Désherbage | Adventices",
+                            "bruxelles",
+                            "Choux de | Désherbage | Adventices dicotylédones annuelles",
+                            "bruxelles",
+                            "Choux de | Désherbage | Adventices dicotylédones vivaces",
+                            "bruxelles",
+                            "Choux de | Désherbage | Adventices graminées annuelles",
+                            "bruxelles",
+                            "Choux de | Désherbage | Adventices graminées vivaces",
+                            "bruxelles"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Choux de | Parties aériennes | Acariens",
+                            "bruxelles",
+                            "Choux de | Parties aériennes | Noctuelles défoliatrices",
+                            "bruxelles",
+                            "Choux de | Parties aériennes | Pucerons",
+                            "bruxelles",
+                            "Choux de | Parties aériennes | Thrips",
+                            "bruxelles"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Choux de | Traitement du sol | Fontes de semis",
+                            "bruxelles",
+                            "Choux de | Parties aériennes | Mildiou",
+                            "bruxelles",
+                            "Choux de | Parties aériennes | Oïdium",
+                            "bruxelles",
+                            "Choux de | Parties aériennes | Pourriture grise",
+                            "bruxelles",
+                            "Choux de | Parties aériennes | Rouille",
+                            "bruxelles"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Choux (brassicacées)",
+        "cultures": [
+            {
+                "culture": "Choux fleurs",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Choux fleurs | Désherbage | Adventices",
+                            "Choux fleurs | Désherbage | Adventices dicotylédones annuelles",
+                            "Choux fleurs | Désherbage | Adventices dicotylédones vivaces",
+                            "Choux fleurs | Désherbage | Adventices graminées annuelles",
+                            "Choux fleurs | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Choux fleurs | Parties aériennes | Acariens",
+                            "Choux fleurs | Parties aériennes | Noctuelles défoliatrices",
+                            "Choux fleurs | Parties aériennes | Pucerons",
+                            "Choux fleurs | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Choux fleurs | Traitement du sol | Fontes de semis",
+                            "Choux fleurs | Parties aériennes | Mildiou",
+                            "Choux fleurs | Parties aériennes | Oïdium",
+                            "Choux fleurs | Parties aériennes | Pourriture grise",
+                            "Choux fleurs | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Choux (brassicacées)",
+        "cultures": [
+            {
+                "culture": "Choux raves",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Choux raves | Désherbage | Adventices",
+                            "Choux raves | Désherbage | Adventices dicotylédones annuelles",
+                            "Choux raves | Désherbage | Adventices dicotylédones vivaces",
+                            "Choux raves | Désherbage | Adventices graminées annuelles",
+                            "Choux raves | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Choux raves | Parties aériennes | Acariens",
+                            "Choux raves | Parties aériennes | Noctuelles défoliatrices",
+                            "Choux raves | Parties aériennes | Pucerons",
+                            "Choux raves | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Choux raves | Traitement du sol | Fontes de semis",
+                            "Choux raves | Parties aériennes | Mildiou",
+                            "Choux raves | Parties aériennes | Oïdium",
+                            "Choux raves | Parties aériennes | Pourriture grise",
+                            "Choux raves | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Ail",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Ail | Désherbage | Adventices",
+                            "Ail | Désherbage | Adventices dicotylédones annuelles",
+                            "Ail | Désherbage | Adventices dicotylédones vivaces",
+                            "Ail | Désherbage | Adventices graminées annuelles",
+                            "Ail | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Ail | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Ail | Parties aériennes | Anthracnose",
+                            "Ail | Parties aériennes | Mildiou",
+                            "Ail | Parties aériennes | Pourriture blanche",
+                            "Ail | Parties aériennes | Pourriture grise",
+                            "Ail | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes bulbes",
+        "cultures": [
+            {
+                "culture": "Echalote",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Echalote | Désherbage | Adventices",
+                            "Echalote | Désherbage | Adventices dicotylédones annuelles",
+                            "Echalote | Désherbage | Adventices dicotylédones vivaces",
+                            "Echalote | Désherbage | Adventices graminées annuelles",
+                            "Echalote | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes bulbes",
+        "cultures": [
+            {
+                "culture": "Fenouil",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Fenouil | Désherbage | Adventices",
+                            "Fenouil | Désherbage | Adventices dicotylédones annuelles",
+                            "Fenouil | Désherbage | Adventices dicotylédones vivaces",
+                            "Fenouil | Désherbage | Adventices graminées annuelles",
+                            "Fenouil | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes bulbes",
+        "cultures": [
+            {
+                "culture": "Oignon",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Oignon | Désherbage | Adventices",
+                            "Oignon | Désherbage | Adventices dicotylédones annuelles",
+                            "Oignon | Désherbage | Adventices dicotylédones vivaces",
+                            "Oignon | Désherbage | Adventices graminées annuelles",
+                            "Oignon | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Oignon | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Oignon | Parties aériennes | Pourriture grise",
+                            "Oignon | Parties aériennes | Cladosporiose",
+                            "Oignon | Parties aériennes | Mildiou",
+                            "Oignon | Parties aériennes | Pourriture blanche",
+                            "Oignon | Parties aériennes | Rouille",
+                            "Oignon | Trt de semences | Pourriture des bulbes",
+                            "Oignon | Trt de semences | Pourriture grise"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Oignon | Parties aériennes | Inhibition de la germination"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes bulbes",
+        "cultures": [
+            {
+                "culture": "Poireau",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Poireau | Désherbage | Adventices",
+                            "Poireau | Désherbage | Adventices dicotylédones annuelles",
+                            "Poireau | Désherbage | Adventices dicotylédones vivaces",
+                            "Poireau | Désherbage | Adventices graminées annuelles",
+                            "Poireau | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Chicoré",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Chicoré | Désherbage | Adventices",
+                            "Chicoré | Désherbage | Adventices dicotylédones annuelles",
+                            "Chicoré | Désherbage | Adventices dicotylédones vivaces",
+                            "Chicoré | Désherbage | Adventices graminées annuelles",
+                            "Chicoré | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Endives",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Endives | Désherbage | Adventices",
+                            "Endives | Désherbage | Adventices dicotylédones annuelles",
+                            "Endives | Désherbage | Adventices dicotylédones vivaces",
+                            "Endives | Désherbage | Adventices graminées annuelles",
+                            "Endives | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes feuilles",
+        "cultures": [
+            {
+                "culture": "Epinard",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Epinard | Désherbage | Adventices",
+                            "Epinard | Désherbage | Adventices dicotylédones annuelles",
+                            "Epinard | Désherbage | Adventices dicotylédones vivaces",
+                            "Epinard | Désherbage | Adventices graminées annuelles",
+                            "Epinard | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Epinard | Parties aériennes | Noctuelles défoliatrices",
+                            "Epinard | Parties aériennes | Pucerons"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Epinard | Parties aériennes | Mildiou"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes feuilles",
+        "cultures": [
+            {
+                "culture": "Laitue",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Laitue | Désherbage | Adventices",
+                            "Laitue | Désherbage | Adventices dicotylédones annuelles",
+                            "Laitue | Désherbage | Adventices dicotylédones vivaces",
+                            "Laitue | Désherbage | Adventices graminées annuelles",
+                            "Laitue | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Laitue | Parties aériennes | Mouches mineuses",
+                            "Laitue | Parties aériennes | Noctuelles défoliatrices",
+                            "Laitue | Parties aériennes | Pucerons",
+                            "Laitue | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Laitue | Parties aériennes | Altérnariose",
+                            "Laitue | Parties aériennes | Mildiou",
+                            "Laitue | Parties aériennes | Pouriture du collet",
+                            "Laitue | Parties aériennes | Sclérotiniose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes feuilles",
+        "cultures": [
+            {
+                "culture": "Scarole",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Scarole | Désherbage | Adventices",
+                            "Scarole | Désherbage | Adventices dicotylédones annuelles",
+                            "Scarole | Désherbage | Adventices dicotylédones vivaces",
+                            "Scarole | Désherbage | Adventices graminées annuelles",
+                            "Scarole | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Concombre",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Concombre | Désherbage | Adventices",
+                            "Concombre | Désherbage | Adventices dicotylédones annuelles",
+                            "Concombre | Désherbage | Adventices dicotylédones vivaces",
+                            "Concombre | Désherbage | Adventices graminées annuelles",
+                            "Concombre | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Concombre | Traitement du sol | Nématodes",
+                            "Concombre | Parties aériennes | Acariens",
+                            "Concombre | Parties aériennes | Mouches blanches",
+                            "Concombre | Parties aériennes | Mouches mineuses",
+                            "Concombre | Parties aériennes | Noctuelles défoliatrices",
+                            "Concombre | Parties aériennes | Pucerons",
+                            "Concombre | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Concombre | Traitement du sol | Fontes de semis",
+                            "Concombre | Parties aériennes | Altérnariose",
+                            "Concombre | Parties aériennes | Mildiou",
+                            "Concombre | Parties aériennes | Oïdium",
+                            "Concombre | Parties aériennes | Pourriture grise"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes fruits-cucurbitacées",
+        "cultures": [
+            {
+                "culture": "Courge",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Courge | Désherbage | Adventices",
+                            "Courge | Désherbage | Adventices dicotylédones annuelles",
+                            "Courge | Désherbage | Adventices dicotylédones vivaces",
+                            "Courge | Désherbage | Adventices graminées annuelles",
+                            "Courge | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Courge | Parties aériennes | Acariens",
+                            "Courge | Parties aériennes | Mouches blanches",
+                            "Courge | Parties aériennes | Noctuelles défoliatrices",
+                            "Courge | Parties aériennes | Pucerons",
+                            "Courge | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Courge | Traitement du sol | Fonte de semis",
+                            "Courge | Traitement du sol | Fusariose",
+                            "Courge | Traitement du sol | Verticiliose",
+                            "Courge | Parties aériennes | Mildiou",
+                            "Courge | Parties aériennes | Oïdium"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes fruits-cucurbitacées",
+        "cultures": [
+            {
+                "culture": "Courgette",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Courgette | Désherbage | Adventices",
+                            "Courgette | Désherbage | Adventices dicotylédones annuelles",
+                            "Courgette | Désherbage | Adventices dicotylédones vivaces",
+                            "Courgette | Désherbage | Adventices graminées annuelles",
+                            "Courgette | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Courgette | Traitement du sol | Nématodes",
+                            "Courgette | Parties aériennes | Acariens",
+                            "Courgette | Parties aériennes | Mouches blanches",
+                            "Courgette | Parties aériennes | Mouches mineuses",
+                            "Courgette | Parties aériennes | Noctuelles défoliatrices",
+                            "Courgette | Parties aériennes | Pucerons",
+                            "Courgette | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Courgette | Traitement du sol | Fontes de semis",
+                            "Courgette | Parties aériennes | Altérnariose",
+                            "Courgette | Parties aériennes | Mildiou",
+                            "Courgette | Parties aériennes | Oïdium",
+                            "Courgette | Parties aériennes | Pourriture grise"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Courgette | Parties aériennes | Régulateur de croissance"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes fruits-cucurbitacées",
+        "cultures": [
+            {
+                "culture": "Cornichon",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Cornichon | Désherbage | Adventices",
+                            "Cornichon | Désherbage | Adventices dicotylédones annuelles",
+                            "Cornichon | Désherbage | Adventices dicotylédones vivaces",
+                            "Cornichon | Désherbage | Adventices graminées annuelles",
+                            "Cornichon | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Cornichon | Parties aériennes | Acariens",
+                            "Cornichon | Parties aériennes | Mouches blanches",
+                            "Cornichon | Parties aériennes | Mouches mineuses",
+                            "Cornichon | Parties aériennes | Noctuelles défoliatrices",
+                            "Cornichon | Parties aériennes | Pucerons",
+                            "Cornichon | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Cornichon | Traitement du sol | Fontes de semis",
+                            "Cornichon | Parties aériennes | Altérnariose",
+                            "Cornichon | Parties aériennes | Mildiou",
+                            "Cornichon | Parties aériennes | Oïdium",
+                            "Cornichon | Parties aériennes | Pourriture grise"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes fruits-cucurbitacées",
+        "cultures": [
+            {
+                "culture": "Melon",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Melon | Désherbage | Adventices",
+                            "Melon | Désherbage | Adventices dicotylédones annuelles",
+                            "Melon | Désherbage | Adventices dicotylédones vivaces",
+                            "Melon | Désherbage | Adventices graminées annuelles",
+                            "Melon | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Melon | Traitement du sol | Insectes du sol",
+                            "Melon | Traitement du sol | Nématodes",
+                            "Melon | Parties aériennes | Acariens",
+                            "Melon | Parties aériennes | Mouches blanches",
+                            "Melon | Parties aériennes | Noctuelles défoliatrices",
+                            "Melon | Parties aériennes | Mouches mineuses",
+                            "Melon | Parties aériennes | Pucerons",
+                            "melon | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Melon | Traitement du sol | Fonte de semis",
+                            "Melon | Traitement du sol | Fusariose",
+                            "Melon | Traitement du sol | Verticiliose",
+                            "Melon | Parties aériennes | Bactérioses",
+                            "Melon | Parties aériennes | Cladosporiose",
+                            "Melon | Parties aériennes | Mildiou",
+                            "Melon | Parties aériennes | Oïdium",
+                            "Melon | Parties aériennes | Pourriture grise",
+                            "Melon | Parties aériennes | Sclérotiniose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes fruits-cucurbitacées",
+        "cultures": [
+            {
+                "culture": "Pastèque",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Pastèque | Désherbage | Adventices",
+                            "Pastèque | Désherbage | Adventices dicotylédones annuelles",
+                            "Pastèque | Désherbage | Adventices dicotylédones vivaces",
+                            "Pastèque | Désherbage | Adventices graminées annuelles",
+                            "Pastèque | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Pastèque | Traitement du sol | Insectes du sol",
+                            "Pastèque | Traitement du sol | Nématodes",
+                            "Pastèque | Parties aériennes | Acariens",
+                            "Pastèque | Parties aériennes | Mouches blanches",
+                            "Pastèque | Parties aériennes | Noctuelles défoliatrices",
+                            "Pastèque | Parties aériennes | Mouches mineuses",
+                            "Pastèque | Parties aériennes | Pucerons",
+                            "Pastèque | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Pastèque | Traitement du sol | Fonte de semis",
+                            "Pastèque | Traitement du sol | Fusariose",
+                            "Pastèque | Traitement du sol | Verticiliose",
+                            "Pastèque | Parties aériennes | Bactérioses",
+                            "Pastèque | Parties aériennes | Cladosporiose",
+                            "Pastèque | Parties aériennes | Mildiou",
+                            "Pastèque | Parties aériennes | Oïdium | .",
+                            "Pastèque | Parties aériennes | Pourriture grise",
+                            "Pastèque | Parties aériennes | Sclérotiniose"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Aubergine",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Aubergine | Désherbage | Adventices",
+                            "Aubergine | Désherbage | Adventices dicotylédones annuelles",
+                            "Aubergine | Désherbage | Adventices dicotylédones vivaces",
+                            "Aubergine | Désherbage | Adventices graminées annuelles",
+                            "Aubergine | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Aubergine | Traitement du sol | Nématodes",
+                            "Aubergine | Parties aériennes | Acariens",
+                            "Aubergine | Parties aériennes | Mouches blanches",
+                            "Aubergine | Parties aériennes | Noctuelles défoliatrices",
+                            "Aubergine | Parties aériennes | Mineuse des feuilles",
+                            "Aubergine | Parties aériennes | Pucerons",
+                            "Aubergine | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Aubergine | Traitement du sol | Fonte de semis",
+                            "Aubergine | Traitement du sol | Fusariose",
+                            "Aubergine | Traitement du sol | Verticiliose",
+                            "Aubergine | Parties aériennes | Alternariose",
+                            "Aubergine | Parties aériennes | Bactérioses",
+                            "Aubergine | Parties aériennes | Cladosporiose",
+                            "Aubergine | Parties aériennes | Mildiou",
+                            "Aubergine | Parties aériennes | Oïdium",
+                            "Aubergine | Parties aériennes | Pourriture grise",
+                            "Aubergine | Parties aériennes | Sclérotiniose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes fruits-solanacées",
+        "cultures": [
+            {
+                "culture": "Piment",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Piment | Désherbage | Adventices",
+                            "Piment | Désherbage | Adventices dicotylédones annuelles",
+                            "Piment | Désherbage | Adventices dicotylédones vivaces",
+                            "Piment | Désherbage | Adventices graminées annuelles",
+                            "Piment | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Piment | Traitement du sol | Nématodes",
+                            "Piment | Parties aériennes | Mouches blanches",
+                            "Piment | Parties aériennes | Mouches mineuses",
+                            "Piment | Parties aériennes | Noctuelles défoliatrices",
+                            "Piment | Parties aériennes | Pucerons",
+                            "Piment | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Piment | Traitement du sol | Fonte de semis",
+                            "Piment | Traitement du sol | Fusariose",
+                            "Piment | Traitement du sol | Pourriture des racines",
+                            "Piment | Traitement du sol | Pourriture du collet",
+                            "Piment | Parties aériennes | Mildiou",
+                            "Piment | Parties aériennes | Oïdium",
+                            "Piment | Parties aériennes | Pourriture grise",
+                            "Piment | Parties aériennes | Verticilliose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes fruits-solanacées",
+        "cultures": [
+            {
+                "culture": "Poivron",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Poivron | Désherbage | Adventices",
+                            "Poivron | Désherbage | Adventices dicotylédones annuelles",
+                            "Poivron | Désherbage | Adventices dicotylédones vivaces",
+                            "Poivron | Désherbage | Adventices graminées annuelles",
+                            "Poivron | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Poivron | Traitement du sol | Nématodes",
+                            "Poivron | Parties aériennes | Acariens",
+                            "Poivron | Parties aériennes | Mouches blanches",
+                            "Poivron | Parties aériennes | Mouches mineuses",
+                            "Poivron | Parties aériennes | Noctuelles défoliatrices",
+                            "Poivron | Parties aériennes | Pucerons",
+                            "Poivron | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Poivron | Traitement du sol | Fonte de semis",
+                            "Poivron | Traitement du sol | Fusariose",
+                            "Poivron | Traitement du sol | Pourriture des racines",
+                            "Poivron | Traitement du sol | Pourriture du collet",
+                            "Poivron | Parties aériennes | Mildiou",
+                            "Poivron | Parties aériennes | Oïdium",
+                            "Poivron | Parties aériennes | Pourriture grise",
+                            "Poivron | Parties aériennes | Verticilliose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes fruits-solanacées",
+        "cultures": [
+            {
+                "culture": "Tomate",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Tomate | Désherbage | Adventices",
+                            "Tomate | Désherbage | Adventices dicotylédones annuelles",
+                            "Tomate | Désherbage | Adventices dicotylédones vivaces",
+                            "Tomate | Désherbage | Adventices graminées annuelles",
+                            "Tomate | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Tomate | Traitement du sol | Nématodes",
+                            "Tomate | Parties aériennes | Acariens",
+                            "Tomate | Parties aériennes | Acariose bronzée",
+                            "Tomate | Parties aériennes | Mouches blanches",
+                            "Tomate | Parties aériennes | Noctuelles défoliatrices",
+                            "Tomate | Parties aériennes | Mouches mineuses",
+                            "Tomate | Parties aériennes | Pucerons",
+                            "Tomate | Parties aériennes | Thrips",
+                            "Tomate | Parties aériennes | Mineuse de la tomate ( | Tuta absoluta)"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Tomate | Traitement du sol | Fonte de semis",
+                            "Tomate | Traitement du sol | Fusariose",
+                            "Tomate | Traitement du sol | Pourriture du collet",
+                            "Tomate | Traitement du sol | Verticiliose",
+                            "Tomate | Parties aériennes | Alternariose",
+                            "Tomate | Parties aériennes | Anthracnose",
+                            "Tomate | Parties aériennes | Bactérioses",
+                            "Tomate | Parties aériennes | Cladosporiose",
+                            "Tomate | Parties aériennes | Mildiou",
+                            "Tomate | Parties aériennes | Oïdium",
+                            "Tomate | Parties aériennes | Pourriture du collet",
+                            "Tomate | Parties aériennes | Pourriture grise",
+                            "Tomate | Parties aériennes | Sclérotiniose"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Câprier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Câprier | Désherbage | Adventices",
+                            "Câprier | Désherbage | Adventices dicotylédones annuelles",
+                            "Câprier | Désherbage | Adventices dicotylédones vivaces",
+                            "Câprier | Désherbage | Adventices graminées annuelles",
+                            "Câprier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Maïs doux",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Maïs doux | Désherbage | Adventices",
+                            "Maïs | doux | Désherbage | Adventices dicotylédones annuelles",
+                            "Maïs | doux | Désherbage | Adventices dicotylédones vivaces",
+                            "Maïs | doux | Désherbage | Adventices graminées annuelles",
+                            "Maïs | doux | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Maïs | doux | Traitement du sol | Insectes du sol",
+                            "Maïs | doux | Traitement du sol | Vers gris",
+                            "Maïs | doux | Parties aériennes | Acariens",
+                            "Maïs | doux | Parties aériennes | Noctuelles défoliatrices",
+                            "Maïs | doux | Parties aériennes | Pucerons",
+                            "Maïs | doux | Parties aériennes | Sésamie"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Maïs | doux | Trt de semences | Maladies transmises par la semence",
+                            "Maïs | doux | Trt de semences | Pythium",
+                            "Maïs | doux | Parties aériennes | Charbon",
+                            "Maïs | doux | Parties aériennes | Fusariose",
+                            "Maïs | doux | Parties aériennes | Helminthosporiose",
+                            "Maïs | doux | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Betterave potagère",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Betterave | Désherbage | Adventices",
+                            "potagère",
+                            "Betterave | Désherbage | Adventices dicotylédones annuelles",
+                            "potagère",
+                            "Betterave | Désherbage | Adventices dicotylédones vivaces",
+                            "potagère",
+                            "Betterave | Désherbage | Adventices graminées annuelles",
+                            "potagère",
+                            "Betterave | Désherbage | Adventices graminées vivaces",
+                            "potagère"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Betterave | Traitement du sol | Insectes du sol",
+                            "potagère",
+                            "Betterave | Parties aériennes | Noctuelles défoliatrices",
+                            "potagère",
+                            "Betterave | Parties aériennes | Pégomyie",
+                            "potagère",
+                            "Betterave | Parties aériennes | Pucerons",
+                            "potagère"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Betterave | Parties aériennes | Alternariose",
+                            "potagère",
+                            "Betterave | Parties aériennes | Cercosporiose",
+                            "potagère",
+                            "Betterave | Parties aériennes | Mildiou",
+                            "potagère",
+                            "Betterave | Parties aériennes | Oïdium",
+                            "potagère",
+                            "Betterave | Parties aériennes | Rouille",
+                            "potagère"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes racines",
+        "cultures": [
+            {
+                "culture": "Carotte",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Carotte | Désherbage | Adventices",
+                            "Carotte | Désherbage | Adventices dicotylédones annuelles",
+                            "Carotte | Désherbage | Adventices dicotylédones vivaces",
+                            "Carotte | Désherbage | Adventices graminées annuelles",
+                            "Carotte | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Carotte | Parties aériennes | Mouche de la carotte",
+                            "Carotte | Parties aériennes | Pucerons"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Carotte | Parties aériennes | Altérnariose",
+                            "Carotte | Parties aériennes | Bactérioses",
+                            "Carotte | Parties aériennes | Mildiou",
+                            "Carotte | Parties aériennes | Oïdium"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes racines",
+        "cultures": [
+            {
+                "culture": "Navet",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Navet | Désherbage | Adventices",
+                            "Navet | Désherbage | Adventices dicotylédones annuelles",
+                            "Navet | Désherbage | Adventices dicotylédones vivaces",
+                            "Navet | Désherbage | Adventices graminées annuelles",
+                            "Navet | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes racines",
+        "cultures": [
+            {
+                "culture": "Radis",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Radis | Désherbage | Adventices",
+                            "Radis | Désherbage | Adventices dicotylédones annuelles",
+                            "Radis | Désherbage | Adventices dicotylédones vivaces",
+                            "Radis | Désherbage | Adventices graminées annuelles",
+                            "Radis | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Artichaut",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Artichaut | Désherbage | Adventices",
+                            "Artichaut | Désherbage | Adventices dicotylédones annuelles",
+                            "Artichaut | Désherbage | Adventices dicotylédones vivaces",
+                            "Artichaut | Désherbage | Adventices graminées annuelles",
+                            "Artichaut | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Artichaut | Parties aériennes | Noctuelles défoliatrices",
+                            "Artichaut | Parties aériennes | Pucerons",
+                            "Artichaut | Parties aériennes | Tordeuse de l’artichaut"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Artichaut | Parties aériennes | Mildiou",
+                            "Artichaut | Parties aériennes | Oïdium"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Artichaut | Parties aériennes | Action sur la formation des capitules"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes tiges",
+        "cultures": [
+            {
+                "culture": "Asperge",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Asperge | Désherbage | Adventices",
+                            "Asperge | Désherbage | Adventices dicotylédones annuelles",
+                            "Asperge | Désherbage | Adventices dicotylédones vivaces",
+                            "Asperge | Désherbage | Adventices graminées annuelles",
+                            "Asperge | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Asperge | Traitement du sol | Taupins",
+                            "Asperge | Parties aériennes | Noctuelles défoliatrices",
+                            "Asperge | Parties aériennes | Pucerons"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Asperge | Parties aériennes | Alternariose",
+                            "Asperge | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumes tiges",
+        "cultures": [
+            {
+                "culture": "Céleri",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Céleri | Désherbage | Adventices",
+                            "Céleri | Désherbage | Adventices dicotylédones annuelles",
+                            "Céleri | Désherbage | Adventices dicotylédones vivaces",
+                            "Céleri | Désherbage | Adventices graminées annuelles",
+                            "Céleri | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Asperge | Parties aériennes | Alternariose",
+                            "Asperge | Parties aériennes | Septoriose"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Pomme de terre",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Pomme de | Désherbage | Adventices",
+                            "terre",
+                            "Pomme de | Désherbage | Adventices dicotylédones annuelles",
+                            "terre",
+                            "Pomme de | Désherbage | Adventices dicotylédones vivaces",
+                            "terre",
+                            "Pomme de | Désherbage | Adventices graminées annuelles",
+                            "terre",
+                            "Pomme de | Désherbage | Adventices graminées vivaces",
+                            "terre"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Pomme de | Traitement du sol | Nématodes",
+                            "terre",
+                            "Pomme de | Traitement du sol | Taupins",
+                            "terre",
+                            "Pomme de | Traitement du sol | Vers blancs",
+                            "terre",
+                            "Pomme de | Traitement du sol | Vers gris",
+                            "terre",
+                            "Pomme de | Parties aériennes | Mineuse de la tomate | (Tuta absoluta)",
+                            "terre",
+                            "Pomme de | Parties aériennes | Mouche mineuse",
+                            "terre",
+                            "Pomme de | Parties aériennes | Noctuelles défoliatrices",
+                            "terre",
+                            "Pomme de | Parties aériennes | Pucerons",
+                            "terre",
+                            "Pomme de | Parties aériennes | Teigne",
+                            "terre"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Pomme de | Trt de semences | Fusariose",
+                            "terre",
+                            "Pomme de | Trt de semences | Gale argentée",
+                            "terre",
+                            "Pomme de | Trt de semences | Gale commune",
+                            "terre",
+                            "Pomme de | Trt de semences | Rhizoctone",
+                            "terre",
+                            "Pomme de | Parties aériennes | Alternariose",
+                            "terre",
+                            "Pomme de | Parties aériennes | Anthracnose",
+                            "terre",
+                            "Pomme de | Parties aériennes | Bactérioses",
+                            "terre",
+                            "Pomme de | Parties aériennes | Fusariose",
+                            "terre",
+                            "Pomme de | Parties aériennes | Mildiou",
+                            "terre",
+                            "Pomme de | Parties aériennes | Verticiliose",
+                            "terre"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Pomme de | Trt de semences | Inhibition de la germination",
+                            "terre",
+                            "Pomme de | Trt de semences | Levée de la dormance",
+                            "terre",
+                            "Pomme de | parties aériennes | Défanage",
+                            "terre"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Fève",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Fève | Désherbage | Adventices",
+                            "Fève | Désherbage | Adventices dicotylédones annuelles",
+                            "Fève | Désherbage | Adventices dicotylédones vivaces",
+                            "Fève | Désherbage | Adventices graminées annuelles",
+                            "Fève | Désherbage | Adventices graminées vivaces",
+                            "Fève | Désherbage | Orobanche"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Fève | Parties aériennes | Bruches",
+                            "Fève | Parties aériennes | Nématodes des tiges",
+                            "Fève | Parties aériennes | Pucerons",
+                            "Fève | Parties aériennes | Sitones"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Fève | Trt du sol | Pourriture racinaire",
+                            "Fève | Parties aériennes | Anthracnose",
+                            "Fève | Parties aériennes | Maladie des taches chocolat",
+                            "(Botrytis fabae)",
+                            "Fève | Parties aériennes | Pourriture grise",
+                            "Fève | Parties aériennes | Rouille",
+                            "Fève | Parties aériennes | Sclérotiniose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumineuses potagères",
+        "cultures": [
+            {
+                "culture": "Fèverole",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Fèverole | Désherbage | Adventices",
+                            "Fèverole | Désherbage | Adventices dicotylédones annuelles",
+                            "Fèverole | Désherbage | Adventices dicotylédones vivaces",
+                            "Fèverole | Désherbage | Adventices graminées annuelles",
+                            "Fèverole | Désherbage | Adventices graminées vivaces",
+                            "Fèverole | Désherbage | Orobanche"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Fèverole | Parties aériennes | Bruches",
+                            "Fèverole | Parties aériennes | Nématodes des tiges",
+                            "Fèverole | Parties aériennes | Pucerons",
+                            "Fèverole | Parties aériennes | Sitones"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Fèverole | Trt du sol | Pourriture racinaire",
+                            "Fèverole | Parties aériennes | Anthracnose",
+                            "Fèverole | Parties aériennes | Maladie des taches chocolat",
+                            "(Botrytis fabae)",
+                            "Fèverole | Parties aériennes | Pourriture grise",
+                            "Fèverole | Parties aériennes | Rouille",
+                            "Fèverole | Parties aériennes | Sclérotiniose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumineuses potagères",
+        "cultures": [
+            {
+                "culture": "Haricot",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Haricot | Désherbage | Adventices",
+                            "Haricot | Désherbage | Adventices dicotylédones annuelles",
+                            "Haricot | Désherbage | Adventices dicotylédones vivaces",
+                            "Haricot | Désherbage | Adventices graminées annuelles",
+                            "Haricot | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Haricot | Traitement du sol | Nématodes",
+                            "Haricot | Parties aériennes | Acariens",
+                            "Haricot | Parties aériennes | Bruches",
+                            "Haricot | Parties aériennes | Mouches mineuses",
+                            "Haricot | Parties aériennes | Noctuelles défoliatrices",
+                            "Haricot | Parties aériennes | Pucerons"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Haricot | Parties aériennes | Anthracnose",
+                            "Haricot | Parties aériennes | Mildiou",
+                            "Haricot | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumineuses potagères",
+        "cultures": [
+            {
+                "culture": "Haricot vert",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Haricot vert | Désherbage | Adventices",
+                            "Haricot vert | Désherbage | Adventices dicotylédones annuelles",
+                            "Haricot vert | Désherbage | Adventices dicotylédones vivaces",
+                            "Haricot vert | Désherbage | Adventices graminées annuelles",
+                            "Haricot vert | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Haricot vert | Traitement du sol | Nématodes",
+                            "Haricot vert | Parties aériennes | Acariens",
+                            "Haricot vert | Parties aériennes | Mouches blanches",
+                            "Haricot vert | Parties aériennes | Mouches mineuses",
+                            "Haricot vert | Parties aériennes | Noctuelles défoliatrices",
+                            "Haricot vert | Parties aériennes | Pucerons",
+                            "Haricot vert | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Haricot vert | Traitement du sol | Fontes de semis",
+                            "Haricot vert | Parties aériennes | Alternariose",
+                            "Haricot vert | Parties aériennes | Anthracnose",
+                            "Haricot vert | Parties aériennes | Maladie des taches chocolat",
+                            "(Botrytis fabae)",
+                            "Haricot vert | Parties aériennes | Mildiou",
+                            "Haricot vert | Parties aériennes | Oïdium",
+                            "Haricot vert | Parties aériennes | Pouriture grise",
+                            "Haricot vert | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumineuses potagères",
+        "cultures": [
+            {
+                "culture": "Lentille",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Lentille | Désherbage | Adventices",
+                            "Lentille | Désherbage | Adventices dicotylédones annuelles",
+                            "Lentille | Désherbage | Adventices dicotylédones vivaces",
+                            "Lentille | Désherbage | Adventices graminées annuelles",
+                            "Lentille | Désherbage | Adventices graminées vivaces",
+                            "Lentille | Désherbage | Orobanche"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Lentille | Parties aériennes | Bruches",
+                            "Lentille | Parties aériennes | Mouches mineuses",
+                            "Lentille | Parties aériennes | Noctuelles défoliatrices"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Lentille | Trt de semences | Fusariose",
+                            "Lentille | Parties aériennes | Anthracnose",
+                            "Lentille | Parties aériennes | Fusariose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumineuses potagères",
+        "cultures": [
+            {
+                "culture": "Pois",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Pois | Désherbage | Adventices",
+                            "Pois | Désherbage | Dicotylédones annuelles",
+                            "Pois | Désherbage | Dicotylédones vivaces",
+                            "Pois | Désherbage | Graminées annuelles",
+                            "Pois | Désherbage | Graminées vivaces",
+                            "Pois | Désherbage | Orobanche"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Pois | Traitement du sol | Nématodes",
+                            "Pois | Parties aériennes | Noctuelles défoliatrices",
+                            "Pois | Parties aériennes | Pucerons",
+                            "Pois | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Pois | Parties aériennes | Oïdium"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Légumineuses potagères",
+        "cultures": [
+            {
+                "culture": "Pois chiche",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Pois chiche | Désherbage | Adventices",
+                            "Pois chiche | Désherbage | Adventices dicotylédones annuelles",
+                            "Pois chiche | Désherbage | Adventices dicotylédones vivaces",
+                            "Pois chiche | Désherbage | Adventices graminées annuelles",
+                            "Pois chiche | Désherbage | Adventices graminées vivaces",
+                            "Pois chiche | Désherbage | Orobanche"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Pois chiche | Parties aériennes | Mouches mineuses"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Pois chiche | Trt de semences | Fusariose",
+                            "Pois chiche | Parties aériennes | Anthracnose",
+                            "Pois chiche | Parties aériennes | Fusariose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Céréales",
+        "cultures": [
+            {
+                "culture": "Blé tendre",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Blé tendre | Désherbage | Adventices",
+                            "Blé tendre | Désherbage | Dicotylédones annuelles",
+                            "Blé tendre | Désherbage | Dicotylédones vivaces",
+                            "Blé tendre | Désherbage | Graminées annuelles",
+                            "Blé tendre | Désherbage | Graminées vivaces",
+                            "Blé tendre | Désherbage | Brome",
+                            "Blé tendre | Désherbage | Folle avoine",
+                            "Blé tendre | Désherbage | Phalaris",
+                            "Blé tendre | Désherbage | Ray-gras"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Blé tendre | Parties aériennes | Criocères",
+                            "Blé tendre | Parties aériennes | Mouche de Hesse",
+                            "Blé tendre | Parties aériennes | Oiseaux",
+                            "Blé tendre | Parties aériennes | Pucerons"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Blé tendre | Trt de semences | Caries",
+                            "Blé tendre | Trt de semences | Charbon nu",
+                            "Blé tendre | Trt de semences | Fusarioses",
+                            "Blé tendre | Trt de semences | Helminthosporiose",
+                            "Blé tendre | Trt de semences | Pourriture racinaire",
+                            "Blé tendre | Trt de semences | Pythium",
+                            "Blé tendre | Trt de semences | Septoriose",
+                            "Blé tendre | Parties aériennes | Fusarioses",
+                            "Blé tendre | Parties aériennes | Helminthosporiose",
+                            "Blé tendre | Parties aériennes | Oïdium",
+                            "Blé tendre | Parties aériennes | Rouilles",
+                            "Blé tendre | Parties aériennes | Septoriose"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Blé tendre | Parties aériennes | Verse physiologique"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Céréales",
+        "cultures": [
+            {
+                "culture": "Blés",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Blés | Désherbage | Adventices",
+                            "Blés | Désherbage | Dicotylédones annuelles",
+                            "Blés | Désherbage | Dicotylédones vivaces",
+                            "Blés | Désherbage | Graminées annuelles",
+                            "Blés | Désherbage | Graminées vivaces",
+                            "Blés | Désherbage | Brome",
+                            "Blés | Désherbage | Folle avoine",
+                            "Blés | Désherbage | Phalaris",
+                            "Blés | Désherbage | Ray-gras"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Blés | Parties aériennes | Criocères",
+                            "Blés | Parties aériennes | Mouche de Hesse",
+                            "Blés | Parties aériennes | Oiseaux",
+                            "Blés | Parties aériennes | Pucerons"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Blés | Trt de semences | Caries",
+                            "Blés | Trt de semences | Charbon nu",
+                            "Blés | Trt de semences | Fusarioses",
+                            "Blés | Trt de semences | Helminthosporiose",
+                            "Blés | Trt de semences | Pourriture racinaire",
+                            "Blés | Trt de semences | Pythium",
+                            "Blés | Trt de semences | Septoriose",
+                            "Blés | Parties aériennes | Fusarioses",
+                            "Blés | Parties aériennes | Helminthosporiose",
+                            "Blés | Parties aériennes | Oïdium",
+                            "Blés | Parties aériennes | Rouilles",
+                            "Blés | Parties aériennes | Septoriose"
+                        ]
+                    },
+                    {
+                        "section": "Divers",
+                        "entries": [
+                            "Blés | Parties aériennes | Verse physiologique"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Céréales",
+        "cultures": [
+            {
+                "culture": "Céréales (stockage)",
+                "sections": [
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Céréales | Trt post-récolte | Capucin",
+                            "(stockage)",
+                            "Céréales | Trt post-récolte | Charançons",
+                            "(stockage)",
+                            "Céréales | Trt post-récolte | Insectes de stockage",
+                            "(stockage)",
+                            "Céréales | Trt post-récolte | Sylvain",
+                            "(stockage)",
+                            "Céréales | Trt post-récolte | Teignes",
+                            "(stockage)",
+                            "Céréales | Trt post-récolte | Trogoderma",
+                            "(stockage)"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Céréales",
+        "cultures": [
+            {
+                "culture": "Maïs",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Maïs | Désherbage | Adventices",
+                            "Maïs | Désherbage | Dicotylédones annuelles",
+                            "Maïs | Désherbage | Dicotylédones vivaces",
+                            "Maïs | Désherbage | Graminées annuelles",
+                            "Maïs | Désherbage | Graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Maïs | Traitement du sol | Taupins",
+                            "Maïs | Traitement du sol | Vers gris",
+                            "Maïs | Parties aériennes | Acariens",
+                            "Maïs | Parties aériennes | Noctuelles défoliatrices",
+                            "Maïs | Parties aériennes | Pucerons",
+                            "Maïs | Parties aériennes | Sésamie"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Maïs | Trt de semences | Fusariose",
+                            "Maïs | Trt de semences | Pythium",
+                            "Maïs | Trt de semences | Septoriose",
+                            "Maïs | Parties aériennes | Charbon",
+                            "Maïs | Parties aériennes | Fusariose",
+                            "Maïs | Parties aériennes | Helminthosporiose",
+                            "Maïs | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Céréales",
+        "cultures": [
+            {
+                "culture": "Orge",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Orge | Désherbage | Adventices",
+                            "Orge | Désherbage | Dicotylédones annuelles",
+                            "Orge | Désherbage | Dicotylédones vivaces",
+                            "Orge | Désherbage | Graminées annuelles",
+                            "Orge | Désherbage | Graminées vivaces",
+                            "Orge | Désherbage | Brome",
+                            "Orge | Désherbage | Folle avoine",
+                            "Orge | Désherbage | Phalaris",
+                            "Orge | Désherbage | Ray-gras"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Orge | Parties aériennes | Criocères",
+                            "Orge | Parties aériennes | Mouche de Hesse",
+                            "Orge | Parties aériennes | Pucerons"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Orge | Trt de semences | Caries",
+                            "Orge | Trt de semences | Charbon couvert",
+                            "Orge | Trt de semences | Charbon nu",
+                            "Orge | Trt de semences | Fusariose",
+                            "Orge | Trt de semences | Helminthosporiose",
+                            "Orge | Trt de semences | Rhynchosporiose",
+                            "Orge | Parties aériennes | Helminthosporiose",
+                            "Orge | Parties aériennes | Oïdium",
+                            "Orge | Parties aériennes | Rhynchosporiose",
+                            "Orge | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Céréales",
+        "cultures": [
+            {
+                "culture": "Riz",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Riz | Désherbage | Adventices",
+                            "Riz | Désherbage | Adventices dicotylédones annuelles",
+                            "Riz | Désherbage | Adventices dicotylédones vivaces",
+                            "Riz | Désherbage | Adventices graminées annuelles",
+                            "Riz | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Riz | Traitement du sol | Fontes de semis",
+                            "Riz | Parties aériennes | Fusariose",
+                            "Riz | Parties aériennes | Helminthosporiose",
+                            "Riz | Parties aériennes | Pyriculariose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Céréales",
+        "cultures": [
+            {
+                "culture": "Seigle",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Seigle | Désherbage | Adventices",
+                            "Seigle | Désherbage | Dicotylédones annuelles",
+                            "Seigle | Désherbage | Dicotylédones vivaces",
+                            "Seigle | Désherbage | Graminées annuelles",
+                            "Seigle | Désherbage | Graminées vivaces",
+                            "Seigle | Désherbage | Brome",
+                            "Seigle | Désherbage | Folle avoine",
+                            "Seigle | Désherbage | Phalaris",
+                            "Seigle | Désherbage | Ray-grass"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Seigle | Parties aériennes | Fusariose",
+                            "Seigle | Parties aériennes | Oïdium",
+                            "Seigle | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Céréales",
+        "cultures": [
+            {
+                "culture": "Sorgho",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Sorgho | Désherbage | Adventices",
+                            "Sorgho | Désherbage | Dicotylédones annuelles",
+                            "Sorgho | Désherbage | Dicotylédones vivaces",
+                            "Sorgho | Désherbage | Graminées annuelles",
+                            "Sorgho | Désherbage | Graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Sorgho | Trt de semences | Insectes du sol",
+                            "Sorgho | Parties aériennes | Sésamie"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Céréales",
+        "cultures": [
+            {
+                "culture": "Triticale",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Triticale | Désherbage | Adventices",
+                            "Triticale | Désherbage | Dicotylédones annuelles",
+                            "Triticale | Désherbage | Dicotylédones vivaces",
+                            "Triticale | Désherbage | Graminées annuelles",
+                            "Triticale | Désherbage | Graminées vivaces",
+                            "Triticale | Désherbage | Brome",
+                            "Triticale | Désherbage | Folle avoine",
+                            "Triticale | Désherbage | Phalaris",
+                            "Triticale | Désherbage | Ray-grass"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Triticale | Parties aériennes | Criocères",
+                            "Triticale | Parties aériennes | Mouche de Hesse",
+                            "Triticale | Parties aériennes | Pucerons"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Triticale | Trt de semences | Caries",
+                            "Triticale | Trt de semences | Charbon couvert",
+                            "Triticale | Trt de semences | Charbon nu",
+                            "Triticale | Trt de semences | Fusariose",
+                            "Triticale | Trt de semences | Helminthosporiose",
+                            "Triticale | Trt de semences | Rhynchosporiose",
+                            "Triticale | Parties aériennes | Helminthosporiose",
+                            "Triticale | Parties aériennes | Oïdium",
+                            "Triticale | Parties aériennes | Rhynchosporiose",
+                            "Triticale | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Plantes fourragères",
+        "cultures": [
+            {
+                "culture": "Luzerne",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Luzerne | Désherbage | Adventices",
+                            "Luzerne | Désherbage | Adventices dicotylédones annuelles",
+                            "Luzerne | Désherbage | Adventices dicotylédones vivaces",
+                            "Luzerne | Désherbage | Adventices graminées annuelles",
+                            "Luzerne | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Luzerne | Parties aériennes | Noctuelles défoliatrices",
+                            "Luzerne | Parties aériennes | Sitone"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Luzerne | Parties aériennes | Anthracnose",
+                            "Luzerne | Parties aériennes | Mildiou",
+                            "Luzerne | Parties aériennes | Oïdium",
+                            "Luzerne | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Plantes fourragères",
+        "cultures": [
+            {
+                "culture": "Ray-grass",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Ray-grass | Désherbage | Adventices",
+                            "Ray-grass | Désherbage | Adventices dicotylédones annuelles",
+                            "Ray-grass | Désherbage | Adventices dicotylédones vivaces",
+                            "Ray-grass | Désherbage | Adventices graminées annuelles",
+                            "Ray-grass | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Plantes fourragères",
+        "cultures": [
+            {
+                "culture": "Trèfle",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Trèfle | Désherbage | Adventices",
+                            "Trèfle | Désherbage | Adventices dicotylédones annuelles",
+                            "Trèfle | Désherbage | Adventices dicotylédones vivaces",
+                            "Trèfle | Désherbage | Adventices graminées annuelles",
+                            "Trèfle | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Trèfle | Parties aériennes | Anthracnose",
+                            "Trèfle | Parties aériennes | Pourriture grise",
+                            "Trèfle | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Betterave à sucre",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Betterave à | Désherbage | Adventices",
+                            "sucre",
+                            "Betterave à | Désherbage | Adventices dicotylédones annuelles",
+                            "sucre",
+                            "Betterave à | Désherbage | Adventices graminées annuelles",
+                            "sucre"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Betterave à | Traitement du sol | Nématodes",
+                            "sucre",
+                            "Betterave à | Traitement du sol | Taupins",
+                            "sucre",
+                            "Betterave à | Traitement du sol | Vers gris",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Casside",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Cléone mendiant",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Noctuelles défoliatrices",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Pégomyie",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Pucerons",
+                            "sucre"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Betterave à | Parties aériennes | Alternariose | .",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Cercosporiose",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Mildiou",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Oïdium",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Pourriture molle",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Ramulariose",
+                            "sucre",
+                            "Betterave à | Parties aériennes | Rouille",
+                            "sucre"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Plantes industrielle",
+        "cultures": [
+            {
+                "culture": "Canne à sucre",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Canne à sucre | Désherbage | Adventices",
+                            "Canne à sucre | Désherbage | Adventices dicotylédones annuelles",
+                            "Canne à sucre | Désherbage | Adventices dicotylédones vivaces",
+                            "Canne à sucre | Désherbage | Adventices graminées annuelles",
+                            "Canne à sucre | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Canne à sucre | Parties  aériennes | Noctuelles défoliatrices"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Plantes industrielle",
+        "cultures": [
+            {
+                "culture": "Colza",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Colza | Désherbage | Adventices",
+                            "Colza | Désherbage | Adventices dicotylédones annuelles",
+                            "Colza | Désherbage | Adventices graminées annuelles"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Colza | Parties aériennes | Pucerons"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Plantes industrielle",
+        "cultures": [
+            {
+                "culture": "Tabac",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Tabac | Désherbage | Adventices",
+                            "Tabac | Désherbage | Adventices dicotylédones annuelles",
+                            "Tabac | Désherbage | Adventices dicotylédones vivaces",
+                            "Tabac | Désherbage | Adventices graminées annuelles",
+                            "Tabac | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Tabac | Parties  aériennes | Mouches blanches",
+                            "Tabac | Parties  aériennes | Noctuelles défoliatrices",
+                            "Tabac | Parties  aériennes | Pucerons",
+                            "Tabac | Parties aériennes | Punaise",
+                            "Tabac | Parties  aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Tabac | Parties aériennes | Mildiou",
+                            "Tabac | Parties aériennes | Alternariose",
+                            "Tabac | Parties aériennes | Oïdium",
+                            "Tabac | Parties aériennes | Pourriture grise"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Plantes industrielle",
+        "cultures": [
+            {
+                "culture": "Tournesol",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Tournesol | Désherbage | Adventices",
+                            "Tournesol | Désherbage | Dicotylédones annuelles",
+                            "Tournesol | Désherbage | Graminées annuelles"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Tournesol | Traitement du sol | Insectes du sol",
+                            "Tournesol | Traitement du sol | Vers gris"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Tournesol | Parties aériennes | Mildiou"
+                        ]
+                    }
+                ]
+            },
+            {
+                "culture": "Arachide",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Arachide | Désherbage | Adventices",
+                            "Arachide | Désherbage | Adventices dicotylédones annuelles",
+                            "Arachide | Désherbage | Adventices dicotylédones vivaces",
+                            "Arachide | Désherbage | Adventices graminées annuelles",
+                            "Arachide | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Arachide | Parties aériennes | Noctuelles défoliatrices",
+                            "Arachide | Parties aériennes | Cicadelle verte",
+                            "Arachide | Parties aériennes | Punaise verte",
+                            "Arachide | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Arachide | Trt de semences | Fontes de semis",
+                            "Arachide | Traitement du sol | Fontes de semis",
+                            "Arachide | Traitement du sol | Nématodes",
+                            "Arachide | Traitement du sol | Pourriture blanche",
+                            "Arachide | Traitement du sol | Pourriture du collet",
+                            "Arachide | Parties aériennes | Cercosporiose",
+                            "Arachide | Parties aériennes | Oïdium",
+                            "Arachide | Parties aériennes | Pourriture grise",
+                            "Arachide | Parties aériennes | Sclérotiniose"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Autres",
+        "cultures": [
+            {
+                "culture": "Lin",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Lin | Désherbage | Adventices",
+                            "Lin | Désherbage | Adventices dicotylédones annuelles",
+                            "Lin | Désherbage | Adventices dicotylédones vivaces",
+                            "Lin | Désherbage | Adventices graminées annuelles",
+                            "Lin | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Autres",
+        "cultures": [
+            {
+                "culture": "Jachère",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Jachère | Désherbage | Adventices",
+                            "Jachère | Désherbage | Adventices dicotylédones annuelles",
+                            "Jachère | Désherbage | Adventices dicotylédones vivaces",
+                            "Jachère | Désherbage | Adventices graminées annuelles",
+                            "Jachère | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Jachère | Parties aériennes | Chenille des friches"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Autres",
+        "cultures": [
+            {
+                "culture": "Sésame",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Sésame | Désherbage | Adventices",
+                            "Sésame | Désherbage | Adventices dicotylédones annuelles",
+                            "Sésame | Désherbage | Adventices dicotylédones vivaces",
+                            "Sésame | Désherbage | Adventices graminées annuelles",
+                            "Sésame | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Plantes aromatiques et médicinales (PAM)",
+        "cultures": [
+            {
+                "culture": "Menthe",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Menthe | Désherbage | Adventices",
+                            "Menthe | Désherbage | Adventices dicotylédones annuelles",
+                            "Menthe | Désherbage | Adventices dicotylédones vivaces",
+                            "Menthe | Désherbage | Adventices graminées annuelles",
+                            "Menthe | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Menthe | Traitement du sol | Charançon des racines",
+                            "Menthe | Traitement du sol | Courtilière",
+                            "Menthe | Traitement du sol | Taupins",
+                            "Menthe | Traitement du sol | Vers blancs",
+                            "Menthe | Traitement du sol | Vers gris",
+                            "Menthe | Parties aériennes | Acariens",
+                            "Menthe | Parties aériennes | Chrysomèle de la menthe",
+                            "Menthe | Parties aériennes | Cochenilles",
+                            "Menthe | Parties aériennes | Mouches blanches",
+                            "Menthe | Parties aériennes | Noctuelles défoliatrices",
+                            "Menthe | Parties aériennes | Pucerons",
+                            "Menthe | Parties aériennes | Thrips"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Menthe | Traitement du sol | Fonte de semis",
+                            "Menthe | Traitement du sol | Fusariose",
+                            "Menthe | Traitement du sol | Pythium",
+                            "Menthe | Traitement du sol | Verticiliose",
+                            "Menthe | Parties aériennes | Mildiou",
+                            "Menthe | Parties aériennes | Oïdium",
+                            "Menthe | Parties aériennes | Rouille"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Cultures ornementales",
+        "cultures": [
+            {
+                "culture": "Rosier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Rosier | Désherbage | Adventices",
+                            "Rosier | Désherbage | Adventices dicotylédones annuelles",
+                            "Rosier | Désherbage | Adventices dicotylédones vivaces",
+                            "Rosier | Désherbage | Adventices graminées annuelles",
+                            "Rosier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Rosier | traitement du sol | Nématodes",
+                            "Rosier | Parties aériennes | Acariens",
+                            "Rosier | Parties aériennes | Mouches blanches",
+                            "Rosier | Parties aériennes | Noctuelles défoliatrices",
+                            "Rosier | Parties aériennes | Cochenilles",
+                            "Rosier | Parties aériennes | Pucerons",
+                            "Rosier | Trt post-récolte | Insectes"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Rosier | Parties aériennes | Maladie des taches noires",
+                            "Rosier | Parties aériennes | Mildiou",
+                            "Rosier | Parties aériennes | Oïdium",
+                            "Rosier | Parties aériennes | Pourriture grise",
+                            "Rosier | Parties aériennes | Rouille",
+                            "Rosier | Trt post-récolte | Maladies de post-récolte"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Cultures tropicales",
+        "cultures": [
+            {
+                "culture": "Annonier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Annonier | Désherbage | Adventices",
+                            "Annonier | Désherbage | Adventices dicotylédones annuelles",
+                            "Annonier | Désherbage | Adventices dicotylédones vivaces",
+                            "Annonier | Désherbage | Adventices graminées annuelles",
+                            "Annonier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Cultures tropicales",
+        "cultures": [
+            {
+                "culture": "Bananier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Bananier | Désherbage | Adventices",
+                            "Bananier | Désherbage | Adventices dicotylédones annuelles",
+                            "Bananier | Désherbage | Adventices dicotylédones vivaces",
+                            "Bananier | Désherbage | Adventices graminées annuelles",
+                            "Bananier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    },
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Bananier | traitement du sol | Nématodes",
+                            "Bananier | Parties aériennes | Acariens",
+                            "Bananier | Parties aériennes | Mouches blanches",
+                            "Bananier | Parties aériennes | Noctuelles défoliatrices"
+                        ]
+                    },
+                    {
+                        "section": "Maladies",
+                        "entries": [
+                            "Bananier | Parties aériennes | Bout de cigare",
+                            "Bananier | Parties aériennes | Pourriture grise",
+                            "Bananier | Trt post-récolte | Maladies de conservation"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Cultures tropicales",
+        "cultures": [
+            {
+                "culture": "Manguier",
+                "sections": [
+                    {
+                        "section": "Adventices",
+                        "entries": [
+                            "Manguier | Désherbage | Adventices",
+                            "Manguier | Désherbage | Adventices dicotylédones annuelles",
+                            "Manguier | Désherbage | Adventices dicotylédones vivaces",
+                            "Manguier | Désherbage | Adventices graminées annuelles",
+                            "Manguier | Désherbage | Adventices graminées vivaces"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Zones non cultivées",
+        "cultures": [
+            {
+                "culture": "Parcours",
+                "sections": [
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Parcours | Parties aériennes | Criquets",
+                            "Parcours | Parties aériennes | Criquet marocain",
+                            "Parcours | Parties aériennes | Criquet pèlerin",
+                            "Parcours | Traitement du sol | Rongeurs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Traitements généraux",
+        "cultures": [
+            {
+                "culture": "Locaux de stockage",
+                "sections": [
+                    {
+                        "section": "__NO_SECTION__",
+                        "entries": [
+                            "Locaux de stockage | Acariens",
+                            "Locaux de stockage | Bactéries et virus",
+                            "Locaux de stockage | Désinfection des locaux",
+                            "Locaux de stockage | Désinfection des matériels",
+                            "Locaux de stockage | Désinfection des structures",
+                            "Locaux de stockage | Désinfection des surfaces",
+                            "Locaux de stockage | Insectes de stockage",
+                            "Locaux de stockage | Insectes rampants",
+                            "Locaux de stockage | Insectes volants",
+                            "Locaux de stockage | Oiseaux",
+                            "Locaux de stockage | Rongeurs"
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "family": "Traitements généraux",
+        "cultures": [
+            {
+                "culture": "Toutes cultures",
+                "sections": [
+                    {
+                        "section": "Ravageurs",
+                        "entries": [
+                            "Toutes cultures | Traitement du sol | Escargots et limaces",
+                            "Toutes cultures | Parties aériennes | Oiseaux",
+                            "Toutes cultures | Parties aériennes | Criquets",
+                            "Toutes cultures | Parties aériennes | Criquet marocain",
+                            "Toutes cultures | Parties aériennes | Criquet pèlerin"
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
