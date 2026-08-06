@@ -1,43 +1,39 @@
 from extractor import Extractor
-from merger import Merger
 from document_filter import DocumentFilter
 from parser import Parser
 from chunk_builder import ChunkBuilder
 from chunk_exporter import ChunkExporter
 
+pdf = "C:/Users/HP/Desktop/stage_onssa/data/raw/referentiel_onssa.pdf"
 
-# Extraction
 extractor = Extractor()
-lines = extractor.extract_pdf(
-    "C:/Users/HP/Desktop/stage_DSI/data/raw/referentiel_onssa.pdf"
-)
-
-# Fusion
-merger = Merger()
-lines = merger.merge(lines)
-
-# Filtrage
 filter = DocumentFilter()
-lines = [line for line in lines if filter.keep(line)]
-
-# Parsing
 parser = Parser()
-families = parser.parse(lines)
-
-# Chunking
 builder = ChunkBuilder()
+exporter = ChunkExporter()
+
+# Pipeline
+lines = extractor.extract_pdf(pdf)
+
+filtered = []
+for line in lines:
+    filtered.extend(filter.keep(line))
+
+families = parser.parse(filtered)
+
 chunks = builder.build(families)
 
-print("Nombre de chunks :", len(chunks))
+print(f"Nombre de chunks : {len(chunks)}")
 
-exporter = ChunkExporter()
-exporter.export(chunks, "chunks.json")
+print("\n===== PREMIERS CHUNKS =====")
 
-print(f"{len(chunks)} chunks exportés.")
+for chunk in chunks[:3]:
+    print("=" * 60)
+    print("ID :", chunk.id)
+    print("Metadata :", chunk.metadata)
+    print(chunk.text[:400])   # affiche les 400 premiers caractères
+    print()
 
-#print()
-#print(chunks[0].text)
-#print("="*80)
-#print(chunks[30].text)
-#print("="*80)
-#print(chunks[-1].text)
+exporter.export(chunks, "chunks_v2.json")
+
+print("\nExport terminé.")

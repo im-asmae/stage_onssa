@@ -4,7 +4,7 @@ from parser import Parser
 from exporter import Exporter
 from document_filter import DocumentFilter
 
-pdf = "C:/Users/HP/Desktop/stage_DSI/data/raw/referentiel_onssa.pdf"
+pdf = "C:/Users/HP/Desktop/stage_onssa/data/raw/referentiel_onssa.pdf"
 
 extractor = Extractor()
 merger = Merger()

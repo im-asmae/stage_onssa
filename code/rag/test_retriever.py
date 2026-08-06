@@ -12,58 +12,67 @@ print("\n" + "=" * 80)
 print("RECHERCHE GLOBALE")
 print("=" * 80)
 
-results = retriever.retrieve(query, k=5)
-
-documents = results["documents"][0]
-metadatas = results["metadatas"][0]
-ids = results["ids"][0]
-distances = results["distances"][0]
-
-for i, (doc, meta, chunk_id, dist) in enumerate(
-    zip(documents, metadatas, ids, distances),
-    start=1
-):
-    print(f"\nRésultat {i}")
-    print(f"ID       : {chunk_id}")
-    print(f"Culture  : {meta['culture']}")
-    print(f"Famille  : {meta['family']}")
-    print(f"Page     : {meta['page']}")
-    print(f"Distance : {dist:.4f}")
-    print("-" * 60)
-    print(doc[:350], "...")
-    print("-" * 60)
-
-
-print("\n\n")
-print("=" * 80)
-print("RECHERCHE FILTRÉE (Culture = Oranger)")
-print("=" * 80)
-
-results = retriever.retrieve_by_culture(
-    culture="Oranger",
+results = retriever.retrieve(
     query=query,
     k=5
 )
 
-documents = results["documents"][0]
-metadatas = results["metadatas"][0]
-ids = results["ids"][0]
-distances = results["distances"][0]
+for i, chunk in enumerate(results, start=1):
 
-if len(documents) == 0:
+    meta = chunk["metadata"]
+
+    print(f"\nRésultat {i}")
+    print(f"Famille : {meta['family']}")
+    print(f"Culture : {meta['culture']}")
+    print(f"Section : {meta['section']}")
+    print(f"Page    : {meta['page']}")
+    print("Distance :", chunk["distance"])
+    print("-" * 60)
+    print(chunk["text"][:500])
+    print("-" * 60)
+
+
+print("\n")
+print("=" * 80)
+print("RECHERCHE FILTRÉE (Culture = Oranger)")
+print("=" * 80)
+
+results = retriever.retrieve(
+    query=query,
+    culture="Oranger",
+    k=5
+)
+
+if not results:
+
     print("Aucun résultat.")
+
 else:
 
-    for i, (doc, meta, chunk_id, dist) in enumerate(
-        zip(documents, metadatas, ids, distances),
-        start=1
-    ):
+    for i, chunk in enumerate(results, start=1):
+
+        meta = chunk["metadata"]
+
         print(f"\nRésultat {i}")
-        print(f"ID       : {chunk_id}")
-        print(f"Culture  : {meta['culture']}")
-        print(f"Famille  : {meta['family']}")
-        print(f"Page     : {meta['page']}")
-        print(f"Distance : {dist:.4f}")
+        print(f"Famille : {meta['family']}")
+        print(f"Culture : {meta['culture']}")
+        print(f"Section : {meta.get('section')}")
+        print(f"Page    : {meta['page']}")
+        print("Distance :", chunk["distance"])
+
+        if "rerank_score" in chunk:
+            print("Rerank :", chunk["rerank_score"])
+
         print("-" * 60)
-        print(doc[:350], "...")
+        print(chunk["text"][:500])
         print("-" * 60)
+
+
+print("\n")
+print("=" * 80)
+print("CONTEXTE ENVOYÉ AU LLM")
+print("=" * 80)
+
+context = retriever.format_context(results)
+
+print(context)

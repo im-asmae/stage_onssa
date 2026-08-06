@@ -11,11 +11,29 @@ class LineType(Enum):
     UNKNOWN = "unknown"
 
 
+# @dataclass
+# class Line:
+#     text: str
+#     font: str
+#     size: float
+#     page: int
+#     x: float
+#     y: float
+
 @dataclass
 class Line:
     text: str
+
     font: str
     size: float
+
     page: int
+
     x: float
     y: float
+
+    width: float
+    height: float
+
+    bold: bool
+    italic: bool

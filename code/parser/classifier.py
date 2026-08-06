@@ -28,34 +28,49 @@ class LineClassifier:
             line.text.startswith("Page")
             or line.text.startswith("REF/")
         )
-    def est_famille(self, line: Line) -> bool:
-        """Famille : Calibri Italic, taille ≈ 14."""
+
+
+    
+    def est_famille(self, line):
         return (
             "calibri" in line.font.lower()
-        and "italic" in line.font.lower()
-        and self._approx_size(line.size, 14)
+            and line.italic
+            and self._approx_size(line.size, 14)
         )
 
-    def est_culture(self, line: Line) -> bool:
-        """Culture : Times Italic, taille ≈ 14."""
+
+    def est_culture(self, line):
         return (
             "times" in line.font.lower()
-        and "italic" in line.font.lower()
-        and self._approx_size(line.size, 14)
+            and line.italic
+            and self._approx_size(line.size, 14)
         )
+
+
+
+
 
     def est_section(self, line: Line) -> bool:
         """Section : Uniquement basée sur la présence du texte dans les sections connues."""
         return line.text.lower() in self.SECTIONS
 
+
+
+
+
     def est_entree(self, line: Line) -> bool:
-        """Entrée : Calibri, taille ≈ 11, et n'est pas une Section."""
+
         if self.est_section(line):
             return False
+
         return (
-        "calibri" in line.font.lower()
-        and self._approx_size(line.size, 11)
-    )
+            not line.bold
+            and not line.italic
+            and self._approx_size(line.size, 11)
+        )
+
+
+    
     def classifier(self, line: Line) -> LineType:
         """
         Détermine le type de la ligne.

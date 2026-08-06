@@ -60,8 +60,15 @@ class Extractor:
                         "text": text,
                         "font": span["font"],
                         "size": span["size"],
+
                         "x": bbox[0],
-                        "y": bbox[1]
+                        "y": bbox[1],
+
+                        "width": bbox[2] - bbox[0],
+                        "height": bbox[3] - bbox[1],
+
+                        "bold": "Bold" in span["font"],
+                        "italic": "Italic" in span["font"]
                     })
 
         # ordre vertical
@@ -112,11 +119,20 @@ class Extractor:
             lines.append(
                 Line(
                     text=text,
+
                     font=first["font"],
                     size=first["size"],
+
                     page=page_number,
+
                     x=first["x"],
-                    y=group["y"]
+                    y=group["y"],
+
+                    width=first["width"],
+                    height=first["height"],
+
+                    bold=first["bold"],
+                    italic=first["italic"]
                 )
             )
 

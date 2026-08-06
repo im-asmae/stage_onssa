@@ -7,7 +7,7 @@ from classifier import LineClassifier
 
 extractor = Extractor()
 
-lines=extractor.extract_pdf("C:/Users/HP/Desktop/stage_DSI/data/raw/referentiel_onssa.pdf")
+lines=extractor.extract_pdf("C:/Users/HP/Desktop/stage_onssa/data/raw/referentiel_onssa.pdf")
 
 print(f"Nombre de lignes: {len(lines)}")
 

@@ -4,7 +4,7 @@ from merger import Merger
 
 
 extractor = Extractor()
-lines=extractor.extract_pdf("C:/Users/HP/Desktop/stage_DSI/data/raw/referentiel_onssa.pdf")
+lines=extractor.extract_pdf("C:/Users/HP/Desktop/stage_onssa/data/raw/referentiel_onssa.pdf")
 
 print("Avant fusion :", len(lines), "lignes")
 

@@ -2,7 +2,7 @@ from classifier import LineClassifier
 from extractor import Extractor
 from merger import Merger
 
-pdf = "C:/Users/HP/Desktop/stage_DSI/data/raw/referentiel_onssa.pdf"
+pdf = "C:/Users/HP/Desktop/stage_onssa/data/raw/referentiel_onssa.pdf"
 
 
 extractor = Extractor()

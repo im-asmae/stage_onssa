@@ -13,15 +13,16 @@ class ChunkBuilder:
         chunks = []
 
         for family in families:
-
             for culture in family.cultures:
+                for section in culture.sections:
 
-                chunk = self.build_chunk(
-                    family,
-                    culture
-                )
+                    chunk = self.build_chunk(
+                        family,
+                        culture,
+                        section
+                    )
 
-                chunks.append(chunk)
+                    chunks.append(chunk)
 
         return chunks
 
@@ -33,6 +34,7 @@ class ChunkBuilder:
             c for c in text
             if unicodedata.category(c) != "Mn"
         )
+        text = text.replace(":", "").replace(",", "")
 
         return (
             text
@@ -43,47 +45,62 @@ class ChunkBuilder:
         )
 
   
-    def build_chunk(self, family, culture):
-        """
-        Construit un chunk correspondant à une culture.
-        """
+    def build_chunk(self, family, culture, section):
 
         text = self.build_text(
             family,
-            culture
+            culture,
+            section
         )
 
-        chunk_id = f"{self.normalize(family.nom)}_{self.normalize(culture.nom)}"
+        chunk_id = (
+            f"{self.normalize(family.nom)}_"
+            f"{self.normalize(culture.nom)}_"
+            f"{self.normalize(section.nom)}_"
+            f"p{section.page}"
+        )
 
         return Chunk(
-            id = chunk_id,
+            id=chunk_id,
             culture=culture.nom,
             text=text,
             metadata={
-                "family" : family.nom,
-                "page" : culture.page,
+                "family": family.nom,
+                "culture": culture.nom,
+                "section": section.nom,
+                "page": section.page,
             }
         )
 
 
-    def build_text(self, family, culture):
+    def format_entry(self, entry):
+
+        parts = [p.strip() for p in entry.text.split("|")]
+
+        if len(parts) >= 3:
+            return (
+                f"• Usage : {parts[1]}\n"
+                f"  Cible : {parts[2]}"
+            )
+
+        return entry.text
+
+
+    def build_text(self, family, culture, section):
         """
-        Reconstruit le texte qui sera envoyé au modèle d'embedding.
+        Reconstruit le texte envoyé au modèle d'embedding.
+        Un chunk = une seule section.
         """
 
         lines = [
-            f"Famille : {family.nom}",
-            f"Culture : {culture.nom}",
+            f"FAMILLE : {family.nom}",
+            f"CULTURE : {culture.nom}",
+            f"SECTION : {section.nom}",
             ""
         ]
 
-        for section in culture.sections:
-
-            lines.append(section.nom)
-
-            for entry in section.entries:
-                lines.append(f"- {entry.text}")
-
+        for entry in section.entries:
+            lines.append(self.format_entry(entry))
             lines.append("")
 
         return "\n".join(lines)

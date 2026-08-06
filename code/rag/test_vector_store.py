@@ -6,7 +6,7 @@ from rag.vector_store import VectorStore
 
 
 # Chargement des chunks
-with open("C:/Users/HP/Desktop/stage_DSI/code/parser/chunks.json", encoding="utf-8") as f:
+with open("C:/Users/HP/Desktop/stage_onssa/code/parser/chunks_v2.json", encoding="utf-8") as f:
     data = json.load(f)
 
 chunks = []

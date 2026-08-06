@@ -27,6 +27,13 @@ class Parser:
         Parse toutes les lignes du document.
         """
 
+        # Réinitialiser l'état
+        self.families = []
+
+        self.current_family = None
+        self.current_culture = None
+        self.current_section = None
+
         for line in lines:
             self.parse_line(line)
 
@@ -99,6 +106,13 @@ class Parser:
                 f"Page {line.page} : section sans culture ({line.text})"
             )
 
+        # Chercher si cette section existe déjà
+        for section in self.current_culture.sections:
+            if section.nom == line.text:
+                self.current_section = section
+                return
+
+        # Sinon, on la crée
         section = Section(
             nom=line.text,
             page=line.page
