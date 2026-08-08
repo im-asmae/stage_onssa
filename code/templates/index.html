@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+
+    <title>Assistant IA ONSSA</title>
+  </head>
+
+  <body>
+    <h1>Assistant IA ONSSA</h1>
+
+    <p>Bienvenue.</p>
+
+      <form method="POST">
+        <textarea
+          name="question"
+          rows="6"
+          cols="80"
+          placeholder="Posez votre question..."
+        >{{ question }}</textarea>
+
+        <br /><br />
+
+        <button type="submit">Poser la question</button>
+      </form>
+
+      {% if answer %}
+
+      <hr />
+
+      <div class="card">
+
+<h3>Culture</h3>
+
+<p>{{ results[0].metadata.culture }}</p>
+
+<h3>Section</h3>
+
+<p>{{ results[0].metadata.section }}</p>
+
+<h3>Réponse</h3>
+
+<p>{{ answer }}</p>
+
+
+      {% endif %}
+    </form>
+  </body>
+</html>

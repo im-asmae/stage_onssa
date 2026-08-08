@@ -1,4 +1,5 @@
 from rag.retriever import Retriever
+from rag.llm import LLM
 
 retriever = Retriever()
 
@@ -42,6 +43,16 @@ results = retriever.retrieve(
     culture="Oranger",
     k=5
 )
+
+# On ne garde que les 3 meilleurs chunks
+context = retriever.format_context(results[:3])
+
+answer = llm.generate(
+    question=query,
+    context=context
+)
+
+print(answer)
 
 if not results:
 
