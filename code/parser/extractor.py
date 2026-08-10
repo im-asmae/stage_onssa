@@ -9,13 +9,12 @@ Principe :
 """
 
 import fitz
-
 from pdf_types import Line
-
 
 class Extractor:
 
     # tolérance verticale (points PDF)
+
     Y_TOLERANCE = 2.0
 
     def extract_pdf(self, pdf_path):
@@ -37,9 +36,8 @@ class Extractor:
 
         spans = []
 
-        # -----------------------------
         # Extraction de tous les spans
-        # -----------------------------
+
         for block in page_dict["blocks"]:
 
             if "lines" not in block:
@@ -74,9 +72,7 @@ class Extractor:
         # ordre vertical
         spans.sort(key=lambda s: (s["y"], s["x"]))
 
-        # -----------------------------
         # Regroupement par y
-        # -----------------------------
         groups = []
 
         for span in spans:
@@ -98,9 +94,7 @@ class Extractor:
                     "spans": [span]
                 })
 
-        # -----------------------------
         # Construction des lignes
-        # -----------------------------
         lines = []
 
         groups.sort(key=lambda g: g["y"])

@@ -10,16 +10,6 @@ class LineType(Enum):
     ENTRY = "entry"
     UNKNOWN = "unknown"
 
-
-# @dataclass
-# class Line:
-#     text: str
-#     font: str
-#     size: float
-#     page: int
-#     x: float
-#     y: float
-
 @dataclass
 class Line:
     text: str
