@@ -1,0 +1,16 @@
+﻿id,category,question,expected_culture,expected_section,keyword_score,missing_keywords,retrieved_chunks,wrong_culture_results,absence_expected,absence_detected,status,execution_time
+T01,Recherche directe,Quels sont les ravageurs de l'oranger ?,Oranger,Ravageurs,100.0,,5,4,False,False,PASS,152.42
+T02,Question ciblée,Quels traitements sont prévus contre les pucerons sur l'oranger ?,Oranger,Ravageurs,100.0,,5,3,False,False,PASS,101.16
+T03,Recherche de traitements,Quels traitements sont prévus pour les ravageurs de l'oranger ?,Oranger,Ravageurs,100.0,,5,3,False,False,PASS,88.33
+T04,Changement de culture,Quels sont les ravageurs du rosier ?,Rosier,Ravageurs,71.43,"Nématodes, Insectes",5,4,False,False,REVIEW,85.4
+T05,Question ciblée,Quels traitements sont prévus contre les acariens sur le rosier ?,Rosier,Ravageurs,100.0,,5,3,False,False,PASS,64.61
+T06,Changement de culture,Quels ravageurs sont concernés par des traitements sur le bananier ?,Bananier,Ravageurs,75.0,Nématodes,5,4,False,False,REVIEW,109.52
+T07,Information absente,Quels traitements sont prévus contre les pucerons sur le bananier ?,Bananier,Ravageurs,,,5,3,True,False,REVIEW,63.82
+T08,Changement de section,Quelles sont les maladies de l'oranger ?,Oranger,Maladies,100.0,,5,3,False,False,PASS,79.64
+T09,Changement de section,Quels traitements sont prévus contre les adventices de l'oranger ?,Oranger,Adventices,100.0,,5,2,False,False,PASS,87.67
+T10,Changement de section,Quels sont les usages concernant l'amélioration du rendement de l'oranger ?,Oranger,Divers,100.0,,5,2,False,False,PASS,78.19
+T11,Robustesse,Quels sont les ravageurs du fraisier ?,Fraisier,Ravageurs,71.43,"Nématodes, Drosophila suzukii",5,4,False,False,REVIEW,86.09
+T12,Paraphrase,"Pour l'oranger, quels nuisibles peuvent faire l'objet d'un traitement ?",Oranger,Ravageurs,100.0,,5,2,False,False,PASS,83.29
+T13,Relation culture-cible-usage,Pour quels ravageurs de l'oranger le traitement concerne-t-il les parties aériennes ?,Oranger,Ravageurs,100.0,,5,4,False,False,PASS,78.03
+T14,Relation usage-cible,Quel ravageur de l'oranger est traité au niveau du sol ?,Oranger,Ravageurs,0.0,"Nématodes, Traitement du sol",5,4,False,False,FAIL,66.59
+T15,Hors domaine,Quelle est la capitale du Maroc ?,,,,,5,0,True,False,REVIEW,76.47

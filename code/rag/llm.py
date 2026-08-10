@@ -88,8 +88,6 @@ Règles obligatoires :
 
             Considère que ce contexte est le plus pertinent disponible.
 
-            Ton rôle est uniquement de reformuler les informations du contexte de manière claire et fidèle.
-
             N'utilise jamais de connaissances externes et n'invente aucune information.
 
             ==============================
@@ -104,27 +102,60 @@ Règles obligatoires :
 
             {question}
 
-            ==============================
-            INSTRUCTIONS
-            ==============================
+        ==============================
+        INSTRUCTIONS
+        ==============================
 
-            Le contexte ci-dessus provient directement du référentiel officiel de l'ONSSA.
+        Réponds à la question en utilisant UNIQUEMENT le CONTEXTE.
 
-            Considère que ce contexte a déjà été sélectionné comme étant le plus pertinent pour répondre à la question.
+        RÈGLE PRINCIPALE :
+        Lorsque la question demande les éléments d'une SECTION pour une CULTURE,
+        retourne TOUTES les valeurs du champ « Cible » présentes dans cette section
+        pour cette culture.
 
-            Ta tâche consiste uniquement à expliquer ou reformuler les informations présentes dans ce contexte.
+        Pour la question :
+        « Quels sont les ravageurs du rosier ? »
 
-            Règles :
+        il faut donc retourner toutes les cibles présentes dans :
+        [Cultures ornementales > Rosier > Ravageurs]
 
-            - Utilise exclusivement les informations présentes dans le contexte.
-            - N'utilise jamais de connaissances externes.
-            - N'invente jamais une information absente.
-            - Ignore les autres cultures éventuellement présentes dans le contexte et concentre-toi uniquement sur celle correspondant à la question.
-            - Si le contexte contient un couple « Usage » / « Cible », considère que cette information est suffisante pour répondre et reformule-la dans une phrase naturelle.
-            - Ne recommande jamais un pesticide, une matière active, une dose, un produit commercial ou une méthode qui n'apparaît pas explicitement dans le contexte.
-            - Si aucune information du contexte ne correspond réellement à la question, réponds exactement :
+        Dans cette section, les cibles sont :
+        - Nématodes
+        - Acariens
+        - Mouches blanches
+        - Noctuelles défoliatrices
+        - Cochenilles
+        - Pucerons
+        - Insectes
 
-            Cette information n'est pas présente dans le référentiel ONSSA fourni.
+        IMPORTANT :
+        - Ne supprime aucune cible.
+        - Ne filtre jamais les cibles selon leur « Usage ».
+        - « traitement du sol », « Parties aériennes » et « Trt post-récolte »
+          sont tous des usages valides.
+        - Une cible reste valide même si son usage est différent des autres.
+        - Ne remplace pas une cible par une autre.
+        - Ne sélectionne pas uniquement les cibles qui te semblent être des
+          ravageurs classiques.
+        - Le référentiel fait foi : restitue exactement les valeurs présentes
+          dans le champ « Cible ».
+        - Si 7 cibles sont présentes dans la section correspondante,
+          la réponse doit contenir les 7 cibles.
+        - N'utilise aucune connaissance externe pour décider si une cible
+          est ou n'est pas un ravageur.
+        - Ne déduis rien à partir de tes connaissances générales.
 
-            La réponse doit être concise (une ou deux phrases) et rédigée en français.
-            """
+        Pour chaque cible, conserve son nom tel qu'il apparaît dans le contexte.
+
+        Si plusieurs cultures apparaissent dans le contexte, utilise uniquement
+        la culture demandée dans la question.
+
+        Si la section demandée est présente, utilise uniquement cette section.
+
+        Si aucune information correspondant à la culture et à la section
+        demandées n'est présente dans le contexte, réponds exactement :
+
+        Cette information n'est pas présente dans le référentiel ONSSA fourni.
+
+        Réponds en français de manière claire et concise.
+        """

@@ -124,3 +124,21 @@ class VectorStore:
         self.collection = self.client.get_or_create_collection(
             name=self.collection_name
         )
+
+    def get_cultures(self):
+        """
+        Retourne les cultures uniques présentes dans la collection.
+        """
+        results = self.collection.get(
+            include=["metadatas"]
+        )
+
+        cultures = set()
+
+        for metadata in results["metadatas"]:
+            culture = metadata.get("culture")
+
+            if culture:
+                cultures.add(culture)
+
+        return sorted(cultures)

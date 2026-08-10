@@ -1,9 +1,9 @@
 from rag.retriever import Retriever
-from rag.llm import LLM
+from rag.llm import LLM 
 
 retriever = Retriever()
 
-query = "Comment traiter les pucerons du oranger ?"
+query = "Quels sont les ravageurs du rosier ?"
 
 print("=" * 80)
 print("QUESTION")
@@ -38,6 +38,8 @@ print("=" * 80)
 print("RECHERCHE FILTRÉE (Culture = Oranger)")
 print("=" * 80)
 
+
+
 results = retriever.retrieve(
     query=query,
     culture="Oranger",
@@ -47,6 +49,7 @@ results = retriever.retrieve(
 # On ne garde que les 3 meilleurs chunks
 context = retriever.format_context(results[:3])
 
+llm=LLM()
 answer = llm.generate(
     question=query,
     context=context
