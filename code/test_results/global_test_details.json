@@ -1,0 +1,492 @@
+[
+    {
+        "id": "T01",
+        "category": "Recherche directe",
+        "question": "Quels sont les ravageurs du rosier ?",
+        "expected_culture": "Rosier",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Rosier",
+        "retrieved_cultures": [
+            "Rosier"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Adventices",
+            "Maladies"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 100.0,
+        "found_keywords": [
+            "Nématodes",
+            "Acariens",
+            "Mouches blanches",
+            "Noctuelles défoliatrices",
+            "Cochenilles",
+            "Pucerons",
+            "Insectes"
+        ],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 182.29,
+        "answer": "Les ravageurs du rosier sont les suivants :\n\n- Nématodes\n- Acariens\n- Mouches blanches\n- Noctuelles défoliatrices\n- Cochenilles\n- Pucerons\n- Insectes"
+    },
+    {
+        "id": "T02",
+        "category": "Question ciblée",
+        "question": "Quels traitements sont prévus contre les mouches blanches sur le rosier ?",
+        "expected_culture": "Rosier",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Rosier",
+        "retrieved_cultures": [
+            "Rosier"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Maladies",
+            "Adventices"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 100.0,
+        "found_keywords": [
+            "Mouches blanches",
+            "Parties aériennes"
+        ],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 117.34,
+        "answer": "Les traitements prévus contre les mouches blanches sur le rosier sont ciblés sur les parties aériennes."
+    },
+    {
+        "id": "T03",
+        "category": "Recherche de traitements",
+        "question": "Quels traitements sont prévus sur l'oranger ?",
+        "expected_culture": "Oranger",
+        "expected_section": null,
+        "detected_culture": "Oranger",
+        "retrieved_cultures": [
+            "Oranger"
+        ],
+        "retrieved_sections": [
+            "Maladies",
+            "Ravageurs",
+            "Divers",
+            "Adventices"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 100.0,
+        "found_keywords": [
+            "Ravageurs",
+            "Maladies"
+        ],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 159.83,
+        "answer": "Les traitements prévus sur l'oranger pour les maladies concernent les ravageurs suivants :\n\n- Nématodes\n- Acariens\n- Mouches blanches\n- Cératite\n- Cochenilles\n- Insectes xylophages\n- Mineuses des feuilles\n- Pucerons\n- Pyrale\n- Teigne des agrumes"
+    },
+    {
+        "id": "T04",
+        "category": "Changement de culture",
+        "question": "Quels sont les ravageurs du bananier ?",
+        "expected_culture": "Bananier",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Bananier",
+        "retrieved_cultures": [
+            "Bananier"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Adventices",
+            "Maladies"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 75.0,
+        "found_keywords": [
+            "Acariens",
+            "Mouches blanches",
+            "Noctuelles défoliatrices"
+        ],
+        "missing_keywords": [
+            "Nématodes"
+        ],
+        "status": "REVIEW",
+        "time": 117.05,
+        "answer": "Ces ravageurs du bananier sont ciblés :\n\n- Acariens\n- Mouches blanches\n- Noctuelles défoliatrices"
+    },
+    {
+        "id": "T05",
+        "category": "Question ciblée",
+        "question": "Quels sont les ravageurs du fraisier ?",
+        "expected_culture": "Fraisier",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Fraisier",
+        "retrieved_cultures": [
+            "Fraisier"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Maladies",
+            "Adventices",
+            "Divers"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 85.71,
+        "found_keywords": [
+            "Acariens",
+            "Mouches blanches",
+            "Drosophila suzukii",
+            "Noctuelles défoliatrices",
+            "Pucerons",
+            "Thrips"
+        ],
+        "missing_keywords": [
+            "Nématodes"
+        ],
+        "status": "REVIEW",
+        "time": 121.8,
+        "answer": "Ces ravageurs du fraisier sont ciblés par les traitements :\n\n- Acariens\n- Mouches blanches\n- Drosophila suzukii\n- Noctuelles défoliatrices\n- Pucerons\n- Thrips"
+    },
+    {
+        "id": "T06",
+        "category": "Changement de culture",
+        "question": "Quels ravageurs sont concernés par des traitements sur le bananier ?",
+        "expected_culture": "Bananier",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Bananier",
+        "retrieved_cultures": [
+            "Bananier"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Maladies",
+            "Adventices"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 75.0,
+        "found_keywords": [
+            "Acariens",
+            "Mouches blanches",
+            "Noctuelles défoliatrices"
+        ],
+        "missing_keywords": [
+            "Nématodes"
+        ],
+        "status": "REVIEW",
+        "time": 78.64,
+        "answer": "Les ravageurs concernés par des traitements sur le bananier sont les suivants :\n\n- Acariens\n- Mouches blanches\n- Noctuelles défoliatrices"
+    },
+    {
+        "id": "T07",
+        "category": "Information absente",
+        "question": "Quels traitements sont prévus contre les pucerons sur le bananier ?",
+        "expected_culture": "Bananier",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Bananier",
+        "retrieved_cultures": [
+            "Bananier"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Maladies",
+            "Adventices"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": true,
+        "absence_message_found": true,
+        "keyword_score": null,
+        "found_keywords": [],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 69.52,
+        "answer": "Cette information n'est pas présente dans le référentiel ONSSA fourni."
+    },
+    {
+        "id": "T08",
+        "category": "Changement de section",
+        "question": "Quelles maladies sont traitées sur le rosier ?",
+        "expected_culture": "Rosier",
+        "expected_section": "Maladies",
+        "detected_culture": "Rosier",
+        "retrieved_cultures": [
+            "Rosier"
+        ],
+        "retrieved_sections": [
+            "Maladies",
+            "Ravageurs",
+            "Adventices"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 100.0,
+        "found_keywords": [
+            "Maladie des taches noires",
+            "Mildiou",
+            "Oïdium",
+            "Pourriture grise",
+            "Rouille"
+        ],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 117.86,
+        "answer": "Les maladies traitées sur le rosier sont les suivantes :\n\n- Maladie des taches noires\n- Mildiou\n- Oïdium\n- Pourriture grise\n- Rouille"
+    },
+    {
+        "id": "T09",
+        "category": "Changement de section",
+        "question": "Quelles sont les maladies du fraisier ?",
+        "expected_culture": "Fraisier",
+        "expected_section": "Maladies",
+        "detected_culture": "Fraisier",
+        "retrieved_cultures": [
+            "Fraisier"
+        ],
+        "retrieved_sections": [
+            "Maladies",
+            "Ravageurs",
+            "Adventices",
+            "Divers"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 80.0,
+        "found_keywords": [
+            "Fusariose",
+            "Verticiliose",
+            "Mildiou",
+            "Pourriture grise"
+        ],
+        "missing_keywords": [
+            "Oïdium"
+        ],
+        "status": "REVIEW",
+        "time": 125.26,
+        "answer": "Ces maladies affectent les fraisiers :\n\n- Fusariose\n- Verticiliose\n- Maladies à phytophtora\n- Altérnariose\n- Maladies à tâches pourpres\n- Mildiou\n- Pourriture grise"
+    },
+    {
+        "id": "T10",
+        "category": "Changement de section",
+        "question": "Quels sont les adventices de l'oranger ?",
+        "expected_culture": "Oranger",
+        "expected_section": "Adventices",
+        "detected_culture": "Oranger",
+        "retrieved_cultures": [
+            "Oranger"
+        ],
+        "retrieved_sections": [
+            "Adventices",
+            "Maladies",
+            "Ravageurs",
+            "Divers"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 100.0,
+        "found_keywords": [
+            "Adventices",
+            "dicotylédones",
+            "graminées"
+        ],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 125.83,
+        "answer": "Ces adventices sont présentes pour l'oranger :\n\n- Adventices\n- Adventices dicotylédones annuelles\n- Adventices dicotylédones vivaces\n- Adventices graminées annuelles\n- Adventices graminées vivaces"
+    },
+    {
+        "id": "T11",
+        "category": "Robustesse",
+        "question": "Quels nuisibles peuvent être traités sur le rosier ?",
+        "expected_culture": "Rosier",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Rosier",
+        "retrieved_cultures": [
+            "Rosier"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Maladies",
+            "Adventices"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 100.0,
+        "found_keywords": [
+            "Acariens",
+            "Mouches blanches",
+            "Noctuelles défoliatrices",
+            "Cochenilles",
+            "Pucerons"
+        ],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 69.99,
+        "answer": "Les nuisibles qui peuvent être traités sur le rosier sont les suivants :\n\n- Nématodes\n- Acariens\n- Mouches blanches\n- Noctuelles défoliatrices\n- Cochenilles\n- Pucerons\n- Insectes"
+    },
+    {
+        "id": "T12",
+        "category": "Paraphrase",
+        "question": "Quels insectes et autres ravageurs font l'objet de traitements sur l'oranger ?",
+        "expected_culture": "Oranger",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Oranger",
+        "retrieved_cultures": [
+            "Oranger"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Maladies",
+            "Adventices",
+            "Divers"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 100.0,
+        "found_keywords": [
+            "Nématodes",
+            "Acariens",
+            "Mouches blanches",
+            "Cératite",
+            "Cochenilles",
+            "Pucerons"
+        ],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 132.48,
+        "answer": "Les insectes et autres ravageurs qui font l'objet de traitements sur l'oranger sont les suivants :\n\n- Nématodes\n- Acariens\n- Mouches blanches\n- Cératite\n- Cochenilles\n- Insectes xylophages\n- Mineuses des feuilles\n- Pucerons\n- Pyrale\n- Teigne des agrumes"
+    },
+    {
+        "id": "T13",
+        "category": "Relation culture-cible-usage",
+        "question": "Quels ravageurs de l'oranger sont traités sur les parties aériennes ?",
+        "expected_culture": "Oranger",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Oranger",
+        "retrieved_cultures": [
+            "Oranger"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Maladies",
+            "Divers",
+            "Adventices"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 100.0,
+        "found_keywords": [
+            "Acariens",
+            "Mouches blanches",
+            "Cératite",
+            "Cochenilles",
+            "Insectes xylophages",
+            "Mineuses des feuilles",
+            "Pucerons"
+        ],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 85.57,
+        "answer": "Les ravageurs de l'oranger traités sur les parties aériennes sont les suivants :\n\n- Acariens\n- Mouches blanches\n- Cératite\n- Cochenilles\n- Insectes xylophages\n- Mineuses des feuilles\n- Pucerons\n- Pyrale\n- Teigne des agrumes"
+    },
+    {
+        "id": "T14",
+        "category": "Relation usage-cible",
+        "question": "Quel ravageur de l'oranger est traité au niveau du sol ?",
+        "expected_culture": "Oranger",
+        "expected_section": "Ravageurs",
+        "detected_culture": "Oranger",
+        "retrieved_cultures": [
+            "Oranger"
+        ],
+        "retrieved_sections": [
+            "Ravageurs",
+            "Maladies",
+            "Adventices",
+            "Divers"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": false,
+        "absence_message_found": null,
+        "keyword_score": 0.0,
+        "found_keywords": [],
+        "missing_keywords": [
+            "Nématodes",
+            "Traitement du sol"
+        ],
+        "status": "FAIL",
+        "time": 77.82,
+        "answer": "Cette information n'est pas présente dans le référentiel ONSSA fourni."
+    },
+    {
+        "id": "T15",
+        "category": "Hors domaine",
+        "question": "Quelle est la capitale du Maroc ?",
+        "expected_culture": null,
+        "expected_section": null,
+        "detected_culture": null,
+        "retrieved_cultures": [
+            "Choux de bruxelles",
+            "Melon",
+            "Haricot vert",
+            "Haricot"
+        ],
+        "retrieved_sections": [
+            "Maladies",
+            "Ravageurs"
+        ],
+        "section_found": true,
+        "contamination": false,
+        "foreign_cultures": [],
+        "expected_absent": true,
+        "absence_message_found": true,
+        "keyword_score": null,
+        "found_keywords": [],
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 106.14,
+        "answer": "Cette information n'est pas présente dans le référentiel ONSSA fourni."
+    }
+]

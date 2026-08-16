@@ -1,7 +1,3 @@
-"""
-son but est : à partir d'une ligne extraite par PyMupdf , détermine son type
-"""
-
 from pdf_types import LineType, Line
 
 class LineClassifier:
@@ -48,13 +44,9 @@ class LineClassifier:
 
 
 
-
-
     def est_section(self, line: Line) -> bool:
         """Section : Uniquement basée sur la présence du texte dans les sections connues."""
         return line.text.lower() in self.SECTIONS
-
-
 
 
 

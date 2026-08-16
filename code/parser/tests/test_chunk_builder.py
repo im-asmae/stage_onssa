@@ -1,10 +1,10 @@
-from extractor import Extractor
-from document_filter import DocumentFilter
-from parser import Parser
-from chunk_builder import ChunkBuilder
-from chunk_exporter import ChunkExporter
+from parser.extractor import Extractor
+from parser.document_filter import DocumentFilter
+from parser.parser import Parser
+from parser.chunk_builder import ChunkBuilder
+from parser.chunk_exporter import ChunkExporter
 
-pdf = "C:/Users/HP/Desktop/stage_onssa/data/raw/referentiel_onssa.pdf"
+pdf = "C:/Users/HP/Desktop/stage_onssa/data/referentiel_onssa.pdf"
 
 extractor = Extractor()
 filter = DocumentFilter()
@@ -34,6 +34,6 @@ for chunk in chunks[:3]:
     print(chunk.text[:400])   # affiche les 400 premiers caractères
     print()
 
-exporter.export(chunks, "chunks_v2.json")
+exporter.export(chunks, "chunks.json")
 
 print("\nExport terminé.")

@@ -2,52 +2,112 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="stylesheet"
       href="{{ url_for('static', filename='style.css') }}"
     />
-
     <title>Assistant IA ONSSA</title>
   </head>
 
   <body>
-    <h1>Assistant IA ONSSA</h1>
+    <div class="container">
+      <header class="header">
+        <div class="mark" aria-hidden="true">
+          <svg viewBox="0 0 48 48" width="30" height="30">
+            <path
+              d="M24 6C24 6 32 14 32 24C32 32 28 38 24 42C20 38 16 32 16 24C16 14 24 6 24 6Z"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+            />
+            <path d="M24 12V40" stroke="currentColor" stroke-width="1.4" />
+            <path
+              d="M24 20C24 20 19 21 18 26"
+              stroke="currentColor"
+              stroke-width="1.4"
+              fill="none"
+            />
+            <path
+              d="M24 20C24 20 29 21 30 26"
+              stroke="currentColor"
+              stroke-width="1.4"
+              fill="none"
+            />
+            <path
+              d="M24 28C24 28 20 29 19 33"
+              stroke="currentColor"
+              stroke-width="1.4"
+              fill="none"
+            />
+            <path
+              d="M24 28C24 28 28 29 29 33"
+              stroke="currentColor"
+              stroke-width="1.4"
+              fill="none"
+            />
+          </svg>
+        </div>
+        <div class="header-text">
+          <h1>Assistant IA ONSSA</h1>
+          <p class="tagline">Bienvenue</p>
+        </div>
+      </header>
 
-    <p>Bienvenue.</p>
+      <main>
+        <section class="question-card">
+          <form method="POST">
+            <label for="question" class="field-label">Question</label>
+            <textarea
+              id="question"
+              name="question"
+              rows="5"
+              placeholder="Ex. Quels sont les ravageurs de la tomate ?"
+            >
+{{ question }}</textarea
+            >
 
-      <form method="POST">
-        <textarea
-          name="question"
-          rows="6"
-          cols="80"
-          placeholder="Posez votre question..."
-        >{{ question }}</textarea>
+            <div class="form-footer">
+              <span class="hint"
+                >Les réponses s'appuient sur la base documentaire ONSSA.</span
+              >
+              <button type="submit">Obtenir la réponse</button>
+            </div>
+          </form>
+        </section>
 
-        <br /><br />
+        {% if answer %}
+        <section class="result-card">
+          <div class="result-header">
+            <span class="dossier-tag">Fiche générée</span>
+            <div class="tags">
+              {% if results and results[0].metadata.culture %}
+              <span class="tag tag-culture">
+                <span class="tag-label">Culture</span>
+                {{ results[0].metadata.culture }}
+              </span>
+              {% endif %} {% if results and results[0].metadata.section %}
+              <span class="tag tag-section">
+                <span class="tag-label">Section</span>
+                {{ results[0].metadata.section }}
+              </span>
+              {% endif %}
+            </div>
+          </div>
 
-        <button type="submit">Poser la question</button>
-      </form>
-
-      {% if answer %}
-
-      <hr />
-
-      <div class="card">
-
-<h3>Culture</h3>
-
-<p>{{ results[0].metadata.culture }}</p>
-
-<h3>Section</h3>
-
-<p>{{ results[0].metadata.section }}</p>
-
-<h3>Réponse</h3>
-
-<p>{{ answer }}</p>
-
-
-      {% endif %}
-    </form>
+          <div class="answer">
+            <h3>Réponse</h3>
+            <p>{{ answer }}</p>
+          </div>
+        </section>
+        {% endif %}
+      </main>
+    </div>
   </body>
 </html>

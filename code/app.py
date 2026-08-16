@@ -1,27 +1,25 @@
 from flask import Flask, render_template, request
-
 from rag.pipeline import RAGPipeline
 
 
-pipeline = RAGPipeline()
 app = Flask(__name__)
+pipeline = RAGPipeline()
 
-question = ""
+
 @app.route("/", methods=["GET", "POST"])
 def home():
 
     answer = None
-    results = None
+    results = []
     question = ""
 
     if request.method == "POST":
 
-        question = request.form["question"]
+        question = request.form.get("question", "").strip()
 
-        answer, results = pipeline.ask(question)
+        if question:
+            answer, results = pipeline.ask(question)
 
-    if answer :
-        answer=answer.replace("\n", "<br>")
     return render_template(
         "index.html",
         question=question,

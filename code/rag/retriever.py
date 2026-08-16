@@ -100,9 +100,7 @@ class Retriever:
         à partir de la question.
         """
 
-        # --------------------------------------------------
         # 1. Détection automatique de la culture
-        # --------------------------------------------------
 
         detected_culture = None
 
@@ -112,9 +110,7 @@ class Retriever:
             if detected_culture:
                 culture = detected_culture["culture"]
 
-        # --------------------------------------------------
         # 2. Construction du filtre ChromaDB
-        # --------------------------------------------------
 
         filters = []
 
@@ -139,9 +135,7 @@ class Retriever:
                 }
             })
 
-        # --------------------------------------------------
         # 3. Construction du where ChromaDB
-        # --------------------------------------------------
 
         if len(filters) == 0:
 
@@ -157,9 +151,7 @@ class Retriever:
                 "$and": filters
             }
 
-        # --------------------------------------------------
         # 4. Recherche vectorielle
-        # --------------------------------------------------
 
         results = self.vector_store.search(
             query=query,
@@ -168,9 +160,7 @@ class Retriever:
             where=where
         )
 
-        # --------------------------------------------------
         # 5. Formatage des résultats
-        # --------------------------------------------------
 
         output = []
 
@@ -188,9 +178,7 @@ class Retriever:
                 }
             )
 
-        # --------------------------------------------------
         # 6. Reranking
-        # --------------------------------------------------
 
         output = self.rerank_results(
             query,
@@ -198,67 +186,6 @@ class Retriever:
         )
 
         return output
-
-    # def retrieve(
-    #     self,
-    #     query,
-    #     k=10,
-    #     family=None,
-    #     culture=None,
-    #     section=None,
-    # ):
-
-    #     conditions = []
-
-    #     if family:
-    #         conditions.append({"family": family})
-
-    #     if culture:
-    #         conditions.append({"culture": culture})
-
-    #     if section:
-    #         conditions.append({"section": section})
-
-
-    #     if len(conditions) == 0:
-    #         where = None
-
-    #     elif len(conditions) == 1:
-    #         where = conditions[0]
-
-    #     else:
-    #         where = {
-    #             "$and": conditions
-    #         }
-
-
-    #     results = self.vector_store.search(
-    #         query=query,
-    #         embedder=self.embedder,
-    #         k=k,
-    #         where=where
-    #     )
-
-
-    #     output=[]
-
-
-    #     for document, metadata, distance in zip(
-    #         results["documents"][0],
-    #         results["metadatas"][0],
-    #         results["distances"][0]
-    #     ):
-    #         output.append(
-    #             {
-    #                 "text": document,
-    #                 "metadata": metadata,
-    #                 "distance": round(distance,4)
-    #             }
-    #         )
-    #     output = self.rerank_results(query, output)
-    #     return output
-
-
 
     def format_context(self,chunks):
 
@@ -305,25 +232,19 @@ class Retriever:
             # Base : plus la distance est petite, mieux c'est
             rerank_score = 2 - chunk["distance"]
 
-            # -----------------------
             # Bonus culture
-            # -----------------------
             culture = metadata.get("culture", "").lower()
 
             if culture and culture in query_lower:
                 rerank_score += 0.30
 
-            # -----------------------
             # Bonus section
-            # -----------------------
             section = metadata.get("section", "").lower()
 
             if section and section in query_lower:
                 rerank_score += 0.20
 
-            # -----------------------
             # Bonus mots communs
-            # -----------------------
             words = [
                 w.strip(" ?!.,;:")
                 for w in query_lower.split()

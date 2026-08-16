@@ -1,0 +1,16 @@
+﻿ID;Catégorie;Question;Culture attendue;Culture détectée;Sections récupérées;Contamination;Score mots-clés;Mots-clés manquants;Statut;Temps (s)
+T01;Recherche directe;Quels sont les ravageurs du rosier ?;Rosier;Rosier;Ravageurs, Adventices, Maladies;NON;100.0;;PASS;182.29
+T02;Question ciblée;Quels traitements sont prévus contre les mouches blanches sur le rosier ?;Rosier;Rosier;Ravageurs, Maladies, Adventices;NON;100.0;;PASS;117.34
+T03;Recherche de traitements;Quels traitements sont prévus sur l'oranger ?;Oranger;Oranger;Maladies, Ravageurs, Divers, Adventices;NON;100.0;;PASS;159.83
+T04;Changement de culture;Quels sont les ravageurs du bananier ?;Bananier;Bananier;Ravageurs, Adventices, Maladies;NON;75.0;Nématodes;REVIEW;117.05
+T05;Question ciblée;Quels sont les ravageurs du fraisier ?;Fraisier;Fraisier;Ravageurs, Maladies, Adventices, Divers;NON;85.71;Nématodes;REVIEW;121.8
+T06;Changement de culture;Quels ravageurs sont concernés par des traitements sur le bananier ?;Bananier;Bananier;Ravageurs, Maladies, Adventices;NON;75.0;Nématodes;REVIEW;78.64
+T07;Information absente;Quels traitements sont prévus contre les pucerons sur le bananier ?;Bananier;Bananier;Ravageurs, Maladies, Adventices;NON;;;PASS;69.52
+T08;Changement de section;Quelles maladies sont traitées sur le rosier ?;Rosier;Rosier;Maladies, Ravageurs, Adventices;NON;100.0;;PASS;117.86
+T09;Changement de section;Quelles sont les maladies du fraisier ?;Fraisier;Fraisier;Maladies, Ravageurs, Adventices, Divers;NON;80.0;Oïdium;REVIEW;125.26
+T10;Changement de section;Quels sont les adventices de l'oranger ?;Oranger;Oranger;Adventices, Maladies, Ravageurs, Divers;NON;100.0;;PASS;125.83
+T11;Robustesse;Quels nuisibles peuvent être traités sur le rosier ?;Rosier;Rosier;Ravageurs, Maladies, Adventices;NON;100.0;;PASS;69.99
+T12;Paraphrase;Quels insectes et autres ravageurs font l'objet de traitements sur l'oranger ?;Oranger;Oranger;Ravageurs, Maladies, Adventices, Divers;NON;100.0;;PASS;132.48
+T13;Relation culture-cible-usage;Quels ravageurs de l'oranger sont traités sur les parties aériennes ?;Oranger;Oranger;Ravageurs, Maladies, Divers, Adventices;NON;100.0;;PASS;85.57
+T14;Relation usage-cible;Quel ravageur de l'oranger est traité au niveau du sol ?;Oranger;Oranger;Ravageurs, Maladies, Adventices, Divers;NON;0.0;Nématodes, Traitement du sol;FAIL;77.82
+T15;Hors domaine;Quelle est la capitale du Maroc ?;;;Maladies, Ravageurs;NON;;;PASS;106.14

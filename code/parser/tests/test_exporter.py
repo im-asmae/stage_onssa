@@ -1,18 +1,15 @@
-from extractor import Extractor
-from merger import Merger
-from parser import Parser
-from exporter import Exporter
-from document_filter import DocumentFilter
+from parser.extractor import Extractor
+from parser.parser import Parser
+from parser.exporter import Exporter
+from parser.document_filter import DocumentFilter
 
-pdf = "C:/Users/HP/Desktop/stage_onssa/data/raw/referentiel_onssa.pdf"
+pdf = "C:/Users/HP/Desktop/stage_onssa/data/referentiel_onssa.pdf"
 
 extractor = Extractor()
-merger = Merger()
 filter = DocumentFilter()
 parser = Parser()
 
 lines = extractor.extract_pdf(pdf)
-lines = merger.merge(lines)
 
 filtered_lines = []
 

@@ -1,4 +1,4 @@
-from embedder import Embedder
+from rag.embedder import Embedder
 
 embedder = Embedder()
 

@@ -1,0 +1,157 @@
+BATTERIE DE TESTS FONCTIONNELS — AGENT RAG ONSSA
+======================================================================
+
+Nombre total de tests : 15
+Tests réussis : 10
+Tests à revoir : 4
+Tests en échec : 1
+Erreurs techniques : 0
+Contamination inter-culture : 0
+Taux de réussite strict : 66.67%
+Score moyen mots-clés : 85.82%
+Temps moyen de réponse : 112.49s
+
+======================================================================
+DETAIL DES TESTS
+======================================================================
+
+T01 — Recherche directe — PASS
+Question : Quels sont les ravageurs du rosier ?
+Culture attendue : Rosier
+Culture détectée : Rosier
+Sections récupérées : ['Ravageurs', 'Adventices', 'Maladies']
+Contamination : NON
+Score mots-clés : 100.0
+Temps : 182.29 s
+
+T02 — Question ciblée — PASS
+Question : Quels traitements sont prévus contre les mouches blanches sur le rosier ?
+Culture attendue : Rosier
+Culture détectée : Rosier
+Sections récupérées : ['Ravageurs', 'Maladies', 'Adventices']
+Contamination : NON
+Score mots-clés : 100.0
+Temps : 117.34 s
+
+T03 — Recherche de traitements — PASS
+Question : Quels traitements sont prévus sur l'oranger ?
+Culture attendue : Oranger
+Culture détectée : Oranger
+Sections récupérées : ['Maladies', 'Ravageurs', 'Divers', 'Adventices']
+Contamination : NON
+Score mots-clés : 100.0
+Temps : 159.83 s
+
+T04 — Changement de culture — REVIEW
+Question : Quels sont les ravageurs du bananier ?
+Culture attendue : Bananier
+Culture détectée : Bananier
+Sections récupérées : ['Ravageurs', 'Adventices', 'Maladies']
+Contamination : NON
+Score mots-clés : 75.0
+Mots-clés manquants : Nématodes
+Temps : 117.05 s
+
+T05 — Question ciblée — REVIEW
+Question : Quels sont les ravageurs du fraisier ?
+Culture attendue : Fraisier
+Culture détectée : Fraisier
+Sections récupérées : ['Ravageurs', 'Maladies', 'Adventices', 'Divers']
+Contamination : NON
+Score mots-clés : 85.71
+Mots-clés manquants : Nématodes
+Temps : 121.8 s
+
+T06 — Changement de culture — REVIEW
+Question : Quels ravageurs sont concernés par des traitements sur le bananier ?
+Culture attendue : Bananier
+Culture détectée : Bananier
+Sections récupérées : ['Ravageurs', 'Maladies', 'Adventices']
+Contamination : NON
+Score mots-clés : 75.0
+Mots-clés manquants : Nématodes
+Temps : 78.64 s
+
+T07 — Information absente — PASS
+Question : Quels traitements sont prévus contre les pucerons sur le bananier ?
+Culture attendue : Bananier
+Culture détectée : Bananier
+Sections récupérées : ['Ravageurs', 'Maladies', 'Adventices']
+Contamination : NON
+Score mots-clés : None
+Temps : 69.52 s
+
+T08 — Changement de section — PASS
+Question : Quelles maladies sont traitées sur le rosier ?
+Culture attendue : Rosier
+Culture détectée : Rosier
+Sections récupérées : ['Maladies', 'Ravageurs', 'Adventices']
+Contamination : NON
+Score mots-clés : 100.0
+Temps : 117.86 s
+
+T09 — Changement de section — REVIEW
+Question : Quelles sont les maladies du fraisier ?
+Culture attendue : Fraisier
+Culture détectée : Fraisier
+Sections récupérées : ['Maladies', 'Ravageurs', 'Adventices', 'Divers']
+Contamination : NON
+Score mots-clés : 80.0
+Mots-clés manquants : Oïdium
+Temps : 125.26 s
+
+T10 — Changement de section — PASS
+Question : Quels sont les adventices de l'oranger ?
+Culture attendue : Oranger
+Culture détectée : Oranger
+Sections récupérées : ['Adventices', 'Maladies', 'Ravageurs', 'Divers']
+Contamination : NON
+Score mots-clés : 100.0
+Temps : 125.83 s
+
+T11 — Robustesse — PASS
+Question : Quels nuisibles peuvent être traités sur le rosier ?
+Culture attendue : Rosier
+Culture détectée : Rosier
+Sections récupérées : ['Ravageurs', 'Maladies', 'Adventices']
+Contamination : NON
+Score mots-clés : 100.0
+Temps : 69.99 s
+
+T12 — Paraphrase — PASS
+Question : Quels insectes et autres ravageurs font l'objet de traitements sur l'oranger ?
+Culture attendue : Oranger
+Culture détectée : Oranger
+Sections récupérées : ['Ravageurs', 'Maladies', 'Adventices', 'Divers']
+Contamination : NON
+Score mots-clés : 100.0
+Temps : 132.48 s
+
+T13 — Relation culture-cible-usage — PASS
+Question : Quels ravageurs de l'oranger sont traités sur les parties aériennes ?
+Culture attendue : Oranger
+Culture détectée : Oranger
+Sections récupérées : ['Ravageurs', 'Maladies', 'Divers', 'Adventices']
+Contamination : NON
+Score mots-clés : 100.0
+Temps : 85.57 s
+
+T14 — Relation usage-cible — FAIL
+Question : Quel ravageur de l'oranger est traité au niveau du sol ?
+Culture attendue : Oranger
+Culture détectée : Oranger
+Sections récupérées : ['Ravageurs', 'Maladies', 'Adventices', 'Divers']
+Contamination : NON
+Score mots-clés : 0.0
+Mots-clés manquants : Nématodes, Traitement du sol
+Temps : 77.82 s
+
+T15 — Hors domaine — PASS
+Question : Quelle est la capitale du Maroc ?
+Culture attendue : None
+Culture détectée : None
+Sections récupérées : ['Maladies', 'Ravageurs']
+Contamination : NON
+Score mots-clés : None
+Temps : 106.14 s
+

@@ -1,6 +1,5 @@
 import json
 
-
 class ChunkExporter:
 
     def export(self, chunks, output_path):
