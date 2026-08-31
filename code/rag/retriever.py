@@ -59,7 +59,9 @@ class Retriever:
 
             culture_normalized = self._normalize_text(culture)
 
-            if culture_normalized in question_normalized:
+            pattern = r"\b" + re.escape(culture_normalized) + r"\b"
+
+            if re.search(pattern, question_normalized):
                 matches.append(culture)
 
         if matches:
@@ -83,6 +85,142 @@ class Retriever:
             "culture": None
         }
 
+
+
+
+
+    def detect_target(self, question):
+        """
+        Détecte une cible présente dans la question.
+
+        Retourne :
+            {
+                "status": "FOUND",
+                "target": "Pucerons"
+            }
+
+        ou :
+
+            {
+                "status": "NONE",
+                "target": None
+            }
+        """
+
+        results = self.vector_store.collection.get(
+            include=["documents"]
+        )
+
+        question_normalized = self._normalize_text(question)
+
+        targets = set()
+
+        for document in results["documents"]:
+
+            for line in document.splitlines():
+
+                line = line.strip()
+
+                if line.lower().startswith("cible :"):
+
+                    target = line.split(":", 1)[1].strip()
+
+                    if target:
+                        targets.add(target)
+
+        matches = []
+
+        for target in targets:
+
+            target_normalized = self._normalize_text(target)
+
+            if target_normalized in question_normalized:
+
+                matches.append(target)
+
+        if matches:
+
+            matches.sort(
+                key=lambda x: len(
+                    self._normalize_text(x)
+                ),
+                reverse=True
+            )
+
+            return {
+                "status": "FOUND",
+                "target": matches[0]
+            }
+
+        return {
+            "status": "NONE",
+            "target": None
+        }
+
+
+    def detect_section(self, question):
+        """
+        Détecte une section du référentiel présente dans la question.
+
+        Sections principales :
+            - Ravageurs
+            - Maladies
+            - Adventices
+            - Divers
+
+        Retourne :
+            {
+                "status": "FOUND",
+                "section": "Ravageurs"
+            }
+
+        ou :
+
+            {
+                "status": "NONE",
+                "section": None
+            }
+        """
+
+        sections = [
+            "Ravageurs",
+            "Maladies",
+            "Adventices",
+            "Divers"
+        ]
+
+        question_normalized = self._normalize_text(question)
+
+        matches = []
+
+        for section in sections:
+
+            section_normalized = self._normalize_text(section)
+
+            if section_normalized in question_normalized:
+
+                matches.append(section)
+
+        if matches:
+
+            matches.sort(
+                key=lambda x: len(
+                    self._normalize_text(x)
+                ),
+                reverse=True
+            )
+
+            return {
+                "status": "FOUND",
+                "section": matches[0]
+            }
+
+        return {
+            "status": "NONE",
+            "section": None
+        }
+
+
     
     def retrieve(
         self,
@@ -95,22 +233,38 @@ class Retriever:
         """
         Recherche des chunks pertinents.
 
-        Si aucune culture n'est fournie explicitement,
-        tente de détecter automatiquement la culture
-        à partir de la question.
+        Détecte automatiquement :
+        - la culture
+        - la section
+
+        si elles ne sont pas fournies explicitement.
         """
 
-        # 1. Détection automatique de la culture
-
-        detected_culture = None
+        # ==========================================================
+        # 1. DÉTECTION AUTOMATIQUE DE LA CULTURE
+        # ==========================================================
 
         if culture is None:
+
             detected_culture = self.detect_culture(query)
 
-            if detected_culture:
+            if detected_culture["status"] == "FOUND":
                 culture = detected_culture["culture"]
 
-        # 2. Construction du filtre ChromaDB
+        # ==========================================================
+        # 2. DÉTECTION AUTOMATIQUE DE LA SECTION
+        # ==========================================================
+
+        if section is None:
+
+            detected_section = self.detect_section(query)
+
+            if detected_section["status"] == "FOUND":
+                section = detected_section["section"]
+
+        # ==========================================================
+        # 3. CONSTRUCTION DES FILTRES
+        # ==========================================================
 
         filters = []
 
@@ -135,7 +289,9 @@ class Retriever:
                 }
             })
 
-        # 3. Construction du where ChromaDB
+        # ==========================================================
+        # 4. CONSTRUCTION DU WHERE CHROMADB
+        # ==========================================================
 
         if len(filters) == 0:
 
@@ -151,7 +307,9 @@ class Retriever:
                 "$and": filters
             }
 
-        # 4. Recherche vectorielle
+        # ==========================================================
+        # 5. RECHERCHE VECTORIELLE
+        # ==========================================================
 
         results = self.vector_store.search(
             query=query,
@@ -160,7 +318,9 @@ class Retriever:
             where=where
         )
 
-        # 5. Formatage des résultats
+        # ==========================================================
+        # 6. FORMATAGE
+        # ==========================================================
 
         output = []
 
@@ -170,15 +330,15 @@ class Retriever:
             results["distances"][0]
         ):
 
-            output.append(
-                {
-                    "text": document,
-                    "metadata": metadata,
-                    "distance": round(distance, 4)
-                }
-            )
+            output.append({
+                "text": document,
+                "metadata": metadata,
+                "distance": round(distance, 4)
+            })
 
-        # 6. Reranking
+        # ==========================================================
+        # 7. RERANKING
+        # ==========================================================
 
         output = self.rerank_results(
             query,
@@ -186,6 +346,68 @@ class Retriever:
         )
 
         return output
+
+
+    def retrieve_by_target(self, target):
+        """
+        Recherche toutes les cultures associées à une cible.
+        """
+
+        data = self.vector_store.collection.get(
+            include=[
+                "documents",
+                "metadatas"
+            ]
+        )
+
+        output = []
+
+        target_normalized = self._normalize_text(target)
+
+        for document, metadata in zip(
+            data["documents"],
+            data["metadatas"]
+        ):
+
+            document_normalized = self._normalize_text(document)
+
+            if target_normalized not in document_normalized:
+                continue
+
+            # Vérification plus précise :
+            # on vérifie que la cible apparaît réellement
+            # dans une ligne "Cible :"
+            found = False
+
+            for line in document.splitlines():
+
+                line = line.strip()
+
+                if line.lower().startswith("cible :"):
+
+                    value = line.split(":", 1)[1].strip()
+
+                    if self._normalize_text(value) == target_normalized:
+                        found = True
+                        break
+
+            if found:
+
+                output.append(
+                    {
+                        "text": document,
+                        "metadata": metadata,
+                        "distance": 0.0,
+                        "rerank_score": 1.0
+                    }
+                )
+
+        return output
+
+
+
+
+
 
     def format_context(self,chunks):
 

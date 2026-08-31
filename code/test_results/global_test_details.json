@@ -10,9 +10,7 @@
             "Rosier"
         ],
         "retrieved_sections": [
-            "Ravageurs",
-            "Adventices",
-            "Maladies"
+            "Ravageurs"
         ],
         "section_found": true,
         "contamination": false,
@@ -31,7 +29,7 @@
         ],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 182.29,
+        "time": 114.14,
         "answer": "Les ravageurs du rosier sont les suivants :\n\n- Nématodes\n- Acariens\n- Mouches blanches\n- Noctuelles défoliatrices\n- Cochenilles\n- Pucerons\n- Insectes"
     },
     {
@@ -61,7 +59,7 @@
         ],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 117.34,
+        "time": 93.92,
         "answer": "Les traitements prévus contre les mouches blanches sur le rosier sont ciblés sur les parties aériennes."
     },
     {
@@ -92,8 +90,8 @@
         ],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 159.83,
-        "answer": "Les traitements prévus sur l'oranger pour les maladies concernent les ravageurs suivants :\n\n- Nématodes\n- Acariens\n- Mouches blanches\n- Cératite\n- Cochenilles\n- Insectes xylophages\n- Mineuses des feuilles\n- Pucerons\n- Pyrale\n- Teigne des agrumes"
+        "time": 149.86,
+        "answer": "Sur l'oranger, les ravageurs et maladies prévues sont les suivantes :\n\n- Alternariose\n- Anthracnose\n- Bactérioses\n- Chancre du collet\n- Fumagine\n- Fusariose\n- Pourriture brune\n- Pourriture grise\n- Stubborn\n- Nématodes\n- Acariens\n- Mouches blanches\n- Cératite\n- Cochenilles\n- Insectes xylophages\n- Mineuses des feuilles\n- Pucerons\n- Pyrale\n- Teigne des agrumes"
     },
     {
         "id": "T04",
@@ -106,27 +104,24 @@
             "Bananier"
         ],
         "retrieved_sections": [
-            "Ravageurs",
-            "Adventices",
-            "Maladies"
+            "Ravageurs"
         ],
         "section_found": true,
         "contamination": false,
         "foreign_cultures": [],
         "expected_absent": false,
         "absence_message_found": null,
-        "keyword_score": 75.0,
+        "keyword_score": 100.0,
         "found_keywords": [
+            "Nématodes",
             "Acariens",
             "Mouches blanches",
             "Noctuelles défoliatrices"
         ],
-        "missing_keywords": [
-            "Nématodes"
-        ],
-        "status": "REVIEW",
-        "time": 117.05,
-        "answer": "Ces ravageurs du bananier sont ciblés :\n\n- Acariens\n- Mouches blanches\n- Noctuelles défoliatrices"
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 102.27,
+        "answer": "Les ravageurs du bananier selon le contexte fourni sont les suivants :\n\n- Acariens\n- Mouches blanches\n- Noctuelles défoliatrices\n\nCette information n'est pas présente dans le référentiel ONSSA fourni pour la cible \"Nématodes\" en traitement du sol."
     },
     {
         "id": "T05",
@@ -139,18 +134,16 @@
             "Fraisier"
         ],
         "retrieved_sections": [
-            "Ravageurs",
-            "Maladies",
-            "Adventices",
-            "Divers"
+            "Ravageurs"
         ],
         "section_found": true,
         "contamination": false,
         "foreign_cultures": [],
         "expected_absent": false,
         "absence_message_found": null,
-        "keyword_score": 85.71,
+        "keyword_score": 100.0,
         "found_keywords": [
+            "Nématodes",
             "Acariens",
             "Mouches blanches",
             "Drosophila suzukii",
@@ -158,12 +151,10 @@
             "Pucerons",
             "Thrips"
         ],
-        "missing_keywords": [
-            "Nématodes"
-        ],
-        "status": "REVIEW",
-        "time": 121.8,
-        "answer": "Ces ravageurs du fraisier sont ciblés par les traitements :\n\n- Acariens\n- Mouches blanches\n- Drosophila suzukii\n- Noctuelles défoliatrices\n- Pucerons\n- Thrips"
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 92.94,
+        "answer": "Les ravageurs du fraisier sont les suivants :\n\n- Nématodes\n- Acariens\n- Mouches blanches\n- Drosophila suzukii\n- Noctuelles défoliatrices\n- Pucerons\n- Thrips"
     },
     {
         "id": "T06",
@@ -176,9 +167,7 @@
             "Bananier"
         ],
         "retrieved_sections": [
-            "Ravageurs",
-            "Maladies",
-            "Adventices"
+            "Ravageurs"
         ],
         "section_found": true,
         "contamination": false,
@@ -195,7 +184,7 @@
             "Nématodes"
         ],
         "status": "REVIEW",
-        "time": 78.64,
+        "time": 70.03,
         "answer": "Les ravageurs concernés par des traitements sur le bananier sont les suivants :\n\n- Acariens\n- Mouches blanches\n- Noctuelles défoliatrices"
     },
     {
@@ -222,7 +211,7 @@
         "found_keywords": [],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 69.52,
+        "time": 66.44,
         "answer": "Cette information n'est pas présente dans le référentiel ONSSA fourni."
     },
     {
@@ -236,9 +225,7 @@
             "Rosier"
         ],
         "retrieved_sections": [
-            "Maladies",
-            "Ravageurs",
-            "Adventices"
+            "Maladies"
         ],
         "section_found": true,
         "contamination": false,
@@ -255,8 +242,8 @@
         ],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 117.86,
-        "answer": "Les maladies traitées sur le rosier sont les suivantes :\n\n- Maladie des taches noires\n- Mildiou\n- Oïdium\n- Pourriture grise\n- Rouille"
+        "time": 80.75,
+        "answer": "Ces maladies sont traitées sur le rosier :\n\n- Maladie des taches noires\n- Mildiou\n- Oïdium\n- Pourriture grise\n- Rouille\n\nCette information n'est pas présente dans le référentiel ONSSA fourni."
     },
     {
         "id": "T09",
@@ -269,29 +256,25 @@
             "Fraisier"
         ],
         "retrieved_sections": [
-            "Maladies",
-            "Ravageurs",
-            "Adventices",
-            "Divers"
+            "Maladies"
         ],
         "section_found": true,
         "contamination": false,
         "foreign_cultures": [],
         "expected_absent": false,
         "absence_message_found": null,
-        "keyword_score": 80.0,
+        "keyword_score": 100.0,
         "found_keywords": [
             "Fusariose",
             "Verticiliose",
             "Mildiou",
+            "Oïdium",
             "Pourriture grise"
         ],
-        "missing_keywords": [
-            "Oïdium"
-        ],
-        "status": "REVIEW",
-        "time": 125.26,
-        "answer": "Ces maladies affectent les fraisiers :\n\n- Fusariose\n- Verticiliose\n- Maladies à phytophtora\n- Altérnariose\n- Maladies à tâches pourpres\n- Mildiou\n- Pourriture grise"
+        "missing_keywords": [],
+        "status": "PASS",
+        "time": 91.91,
+        "answer": "Ces maladies affectent le fraisier selon les cibles mentionnées dans la section Maladies du contexte :\n\n- Fusariose\n- Verticiliose\n- Maladies à phytophtora\n- Altérnariose\n- Maladies à tâches pourpres\n- Mildiou\n- Oïdium\n- Pourriture grise"
     },
     {
         "id": "T10",
@@ -304,10 +287,7 @@
             "Oranger"
         ],
         "retrieved_sections": [
-            "Adventices",
-            "Maladies",
-            "Ravageurs",
-            "Divers"
+            "Adventices"
         ],
         "section_found": true,
         "contamination": false,
@@ -322,7 +302,7 @@
         ],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 125.83,
+        "time": 79.75,
         "answer": "Ces adventices sont présentes pour l'oranger :\n\n- Adventices\n- Adventices dicotylédones annuelles\n- Adventices dicotylédones vivaces\n- Adventices graminées annuelles\n- Adventices graminées vivaces"
     },
     {
@@ -355,7 +335,7 @@
         ],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 69.99,
+        "time": 74.51,
         "answer": "Les nuisibles qui peuvent être traités sur le rosier sont les suivants :\n\n- Nématodes\n- Acariens\n- Mouches blanches\n- Noctuelles défoliatrices\n- Cochenilles\n- Pucerons\n- Insectes"
     },
     {
@@ -369,10 +349,7 @@
             "Oranger"
         ],
         "retrieved_sections": [
-            "Ravageurs",
-            "Maladies",
-            "Adventices",
-            "Divers"
+            "Ravageurs"
         ],
         "section_found": true,
         "contamination": false,
@@ -390,7 +367,7 @@
         ],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 132.48,
+        "time": 94.76,
         "answer": "Les insectes et autres ravageurs qui font l'objet de traitements sur l'oranger sont les suivants :\n\n- Nématodes\n- Acariens\n- Mouches blanches\n- Cératite\n- Cochenilles\n- Insectes xylophages\n- Mineuses des feuilles\n- Pucerons\n- Pyrale\n- Teigne des agrumes"
     },
     {
@@ -404,10 +381,7 @@
             "Oranger"
         ],
         "retrieved_sections": [
-            "Ravageurs",
-            "Maladies",
-            "Divers",
-            "Adventices"
+            "Ravageurs"
         ],
         "section_found": true,
         "contamination": false,
@@ -426,7 +400,7 @@
         ],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 85.57,
+        "time": 73.83,
         "answer": "Les ravageurs de l'oranger traités sur les parties aériennes sont les suivants :\n\n- Acariens\n- Mouches blanches\n- Cératite\n- Cochenilles\n- Insectes xylophages\n- Mineuses des feuilles\n- Pucerons\n- Pyrale\n- Teigne des agrumes"
     },
     {
@@ -457,7 +431,7 @@
             "Traitement du sol"
         ],
         "status": "FAIL",
-        "time": 77.82,
+        "time": 77.65,
         "answer": "Cette information n'est pas présente dans le référentiel ONSSA fourni."
     },
     {
@@ -486,7 +460,7 @@
         "found_keywords": [],
         "missing_keywords": [],
         "status": "PASS",
-        "time": 106.14,
+        "time": 94.17,
         "answer": "Cette information n'est pas présente dans le référentiel ONSSA fourni."
     }
 ]
